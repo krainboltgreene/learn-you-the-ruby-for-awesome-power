@@ -104,7 +104,7 @@ Like every other language Ruby has some bad parts too. The Ruby Community is so 
 
 Now that you know what Ruby is (or at least the definition of Ruby) and how it started, it's time to learn about the history. The era, called the _Ruby Revolution_ by some, of most significance started in 2004. The Ruby Revolution concerns the period of time where Rails hit the scene and started to cause a fuss among web developers. The "fuss" would be called _Ruby Philosophy_. The core philosophy behind Ruby is "DRY: Don't Repeat Yourself". During this time period you can see at least three sides forming in the web development community: The older fellows who liked what they had (JavaEE, PHP) and didn't think this new fangled Ruby On Rails was worth the change, the younger developers who quite enjoyed the ease Rails and Ruby gave them, and those that didn't care either way.
 
-![Rock the revolution!](awesome-goatee.png)
+![Rock the revolution!](http://dl.dropbox.com/u/9330920/Documents/Writings/Tech/lyarfap/awesome-goatee.png)
 
 While web development and web frameworks existed long before Rails, it was commonly considered that web application development sucked. It was something you had to really plow through without much help. The idea that web development could be significantly easier made a lot of people happy. Of course, Ruby and Rails wasn't (and isn't) perfect, but it was the initial push toward making things easier that mattered. The thing is the Ruby Revolution wouldn't have happened without the success of Ruby On Rails with American developers. Thanks to the Rails phenomenon the number of Ruby developers in the United states and European Union grew by incredible amounts. Even though there is an even smaller divide among Rubyists on Rails, we owe a lot of Ruby's following and popularity to Rails.
 
@@ -119,7 +119,7 @@ The term Rockstar, or Rock Star, in the context of developers or developing is c
 
 The Ruby Community has two Rock Stars worth taking serious notice of. Both of these Rock Stars are people I look up to and look forward to matching one day. They have changed the face of Ruby and will be remembered for a very long time. It's hard to look at Ruby and not see the areas that they've changed and so they are in my Ruby Rock Star Hall of Fame, if you will. The first is Zed Shaw, someone whom you might already know from his rants and usual internet ravings. A musician and a talent, he has since left the Ruby community. The second is Why The Lucky Stiff, or `_why`, and has paved the path for a kinder and more enjoyable Ruby experience for a lot of new people. He is also considered to be one of the more wild aspects of Ruby developing. He has since left the internet completely, committing what many consider to be "Internet Suicide."
 
-!(He will!)[break-you.png]
+!(He will!)[http://dl.dropbox.com/u/9330920/Documents/Writings/Tech/lyarfap/break-you.png]
 
 Zed Shaw developed Mongrel, an open-source HTTP library and web server for Ruby web applications and is mostly recognized for that accomplishment. He has since moved on to building Mongrel 2 (Not Ruby), Lamson, and the Liberlist. Attaining Rock Star status due to his heavy influence in how the community deals with Corporate presence, Zed Shaw burned out finally with a blog post called "Rails Is A Ghetto." The blog post no longer exists on his web site and all that remains is a note by him for programmers to follow the quiet helpers who look after those in need rather than the tough jocks of our community, like himself.
 
