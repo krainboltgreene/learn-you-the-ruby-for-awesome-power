@@ -1,15 +1,8 @@
 # Table Of Contents
 
 1. And Then There Was Ruby
-  * HCP: Hackers, Code, And Programs
-    # Popular misconceptions
-    # The definition of hackers
-    # The definition of code
-    # The definition of programs/software
+  * HCP: Hackers, Code, And Programming
   * def ruby
-    # Language type
-    # Sample uses
-    # Popular packages
   * The Ruby Revolution & Renaissance
     # Ruby's beginnings
     # Rise of Rails
@@ -30,4 +23,5 @@
   * _Optional_: Virtual Machine (Extreme)
 3. Boot Camp
   * How This Book Works
-  * T
+  * Task 0: Checking One, One Two.
+  * Task 1: 
