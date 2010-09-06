@@ -1,6 +1,6 @@
 # And Then There Was Ruby
 
-> Note: If you want to get straight to hacking start at [Chapter 2: Ready! Set! Hack](chapter-two) or if you've already got Ruby installed you can skip to [Chapter 3: Boot Camp](chapter-three), although it isn't advised.
+> Note: If you want to get straight to hacking start at [Chapter 2: Ready! Set! Hack](chapter-two).
 
 
 ## HCP: Hackers, Code, and Programming
@@ -136,3 +136,10 @@ What is this bad behavior exactly? Well here's an example:
 > **#ruby**, irc.freenode.com
 
 The reality here is that geeks of any flavor tend to gush over new toys and geeks of any flavor tend to rant about others gushing. In recent years the type of behavior described has slowly ground to a halt as the fanatics are pushed aside and the community, and language, matures. It is important to realize that his behavior stems from ignorance and the best cure is education. We as a group cannot abide by this blind fervor because it will ultimately ruin a lot of what Ruby stands for: The enjoyment of developing.
+
+
+## Credits & Licensing
+
+Alright, you've gotten through the boring part of the book. You know about Ruby, the history, and some of the pitfalls of the community. You're equipped, now, to start learning Ruby and building applications. Hopefully you can start understand why I've written this guide, especially this way, once you get into Ruby developing on your own. This book is of course not the last thing you'll read. In fact you should go on to read these great books:
+
+* 
