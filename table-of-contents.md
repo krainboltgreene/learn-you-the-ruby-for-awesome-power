@@ -9,5 +9,5 @@
   * Credits & License
 2. Ready! Set! Hack.
   * How This Book Works
-  * Task 0: _why: I Need Ruby, Lots Of Ruby
-  * Task 1: How To Be Awesome
+  * Task 0 - `_why`: I Need Ruby, Lots Of Ruby
+  * Task 1 - How To Be Awesome
