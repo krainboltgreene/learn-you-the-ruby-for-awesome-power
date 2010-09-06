@@ -1,4 +1,4 @@
-![In Russia, Duck Type YOU!](soviet-duck.png)
+![In Russia, Duck Type YOU!](http://dl.dropbox.com/u/9330920/Documents/Writings/Tech/lyarfap/soviet-duck.png)
 
 Learn You An Ruby For Awesome Power
 ===================================
