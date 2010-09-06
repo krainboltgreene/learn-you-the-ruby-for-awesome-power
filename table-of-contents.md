@@ -4,8 +4,8 @@
   * HCP: Hackers, Code, And Programming
   * def ruby
   * The Ruby Revolution & Renaissance
+  * Rock Out To The Rockstar
   * The Cherry Kool-Aid
-  * Rock Out To Rockstar
   * Trolls, Neckbeards, and Rails Devs
   * Credits & License
 2. Ready! Set! Hack.
