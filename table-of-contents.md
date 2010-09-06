@@ -4,9 +4,6 @@
   * HCP: Hackers, Code, And Programming
   * def ruby
   * The Ruby Revolution & Renaissance
-    # Ruby's beginnings
-    # Rise of Rails
-    # The Agile Developer
   * The Cherry Kool-Aid
   * Rock Out To Rockstar
   * Trolls, Neckbeards, and Rails Devs
