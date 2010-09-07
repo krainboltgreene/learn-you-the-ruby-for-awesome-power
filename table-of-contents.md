@@ -1,13 +1,16 @@
 # Table Of Contents
 
 1. And Then There Was Ruby
-  * HCP: Hackers, Code, And Programming
-  * def ruby
-  * The Ruby Revolution & Renaissance
-  * Rock Out To The Rock Star
-  * The Cherry Kool-Aid
-  * Credits & License
+
+    * HCP: Hackers, Code, And Programming
+    * def ruby
+    * The Ruby Revolution & Renaissance
+    * Rock Out To The Rock Star
+    * The Cherry Kool-Aid
+    * Credits & License
+
 2. Ready! Set! Hack.
-  * How This Book Works
-  * Task 0 - `_why`: I Need Ruby, Lots Of Ruby
-  * Task 1 - How To Be Awesome
+
+    * How This Book Works
+    * Task 0 - `_why`: I Need Ruby, Lots Of Ruby
+    * Task 1 - How To Be Awesome
