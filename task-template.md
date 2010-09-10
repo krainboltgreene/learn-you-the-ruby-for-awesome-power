@@ -5,12 +5,13 @@
 
 
 ## Source
-
+<script src=""></script>
     
 
 ## Result
 
-
+    $ ruby lyar#.rb
+    > 
 
 ## Details
 
