@@ -50,11 +50,16 @@ If you're using an OS different from these three we assume you know what you're 
 
 ### Windows (XP)
 
-    INSTALL CODE HERE
+1. Open up your browser to this link: http://rubyforge.org/frs/download.php/72170/rubyinstaller-1.9.2-p0.exe
+2. Double click on the installer
+3. Agree to the terms and conditions
+4. Don't change the file path
+5. Magic happens
+6. You have Ruby! Yeah, I'm working on this.
 
 ### Mac (OS 10.5)
 
-    INSTALL CODE HERE
+1. Jesus saves.
 
 ## Result
 
@@ -64,10 +69,10 @@ There is no specific result. You should have working copies of both Ruby and Ged
 
 Ok, as I wrote above we're assuming you know how to use your operating system. If you don't you're going to have a little difficulty. I suggest you do some research, fire up Google and look around. It would literally take me an entire book to just talk about the various Operating Systems.
 
-If you have a problem simply copy the error, open up your browser to here: http://gist.github.com paste the error to that log field, and paste the resulting new link in a new issue here (You'll need a github account): http://github.com/krainboltgreene/learn-you-an-ruby-for-awesome-power/issues
+If you have a problem simply copy the error, open up your browser to here: [http://gist.github.com](http://gist.github.com) paste the error to that log field, and paste the resulting new link in a new issue here (You'll need a Github account): [http://github.com/krainboltgreene/learn-you-an-ruby-for-awesome-power/issues](http://github.com/krainboltgreene/learn-you-an-ruby-for-awesome-power/issues)
 
 ## Extra Credit
 
 1. Open and use Gedit a few times, write some things.
-2. Install and setup git/github (http://github.com/)
+2. Install and setup git/github [http://github.com/](http://github.com/)
 3. Download all the LYAR Tasks.
