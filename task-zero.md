@@ -13,20 +13,13 @@ If you're using an OS different from these three we assume you know what you're 
 1. Open up a terminal (Menu -> Accessories -> Terminal)
 2. Type the following in the terminal:
     1. `sudo apt-get update && sudo apt-get upgrade`
-    2. `sudo apt-get install build-essential bison autoconf g++`
-    3. `sudo apt-get install curl zlib1g-dev libreadline5-dev`
-    4. `sudo apt-get install libsqlite3-dev libxslt-dev libxml2-dev`
-    5. `sudo apt-get install sqlite3 git-core subversion nginx`
-    6. `wget ftp://ftp.ruby-lang.org//pub/ruby/1.9/ruby-1.9.2-p0.tar.gz`
-    7. `tar -xf ruby-1.9.2-p0.tar.gz && cd ruby-1.9.2-p0`
-    8. `./configure && make && sudo make install`
-    9. `sudo gem update --system`
-    10. `sudo gem install facets linguistics sqlite3-ruby --no-ri --no-rdoc`
-    11. `sudo gem install nokogiri rake prawn pony sequel gist --no-ri --no-rdoc`
-    12. `sudo gem install sinatra rails padrino nanoc eventmachine thin rack --no-ri --no-rdoc`
-    13. `sudo gem install haml rdiscount builder rvm --no-ri --no-rdoc`
-    14. `rvm-install`
-    15. `gedit ~/.bashrc ~/.bash_profile`
+    2. `sudo apt-get install build-essential bison autoconf g++ curl zlib1g-dev libreadline5-dev libsqlite3-dev libxslt-dev libxml2-dev`
+    3. `sudo apt-get install sqlite3 git-core subversion nginx`
+    4. `wget ftp://ftp.ruby-lang.org//pub/ruby/1.9/ruby-1.9.2-p0.tar.gz`
+    5. `tar -xf ruby-1.9.2-p0.tar.gz && cd ruby-1.9.2-p0 && ./configure && make && sudo make install`
+    6. `sudo gem install facets linguistics sqlite3-ruby nokogiri rake prawn pony sequel gist sinatra rails padrino nanoc eventmachine thin rack haml rdiscount builder --no-ri --no-rdoc`
+    7. `sudo bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )`
+    8. `gedit ~/.bashrc ~/.bash_profile`
 3. Inside the .bashrc file delete this: `[ -z "$PS1" ] && return`
 4. Add at the very bottom `[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"`
 5. Save and close the file
