@@ -1,4 +1,4 @@
-# Task Zero - `_why`: I Need Ruby, Lots Of Ruby
+# Task Zero - \_why: I Need Ruby, Lots Of Ruby
 
 ## Summary
 
@@ -6,9 +6,47 @@ This is the first lesson and it's probably the most important one you'll ever go
 
 ## Source
 
+If you're using an OS different from these three we assume you know what you're doing. If you have problems, look in the Details section.
+
 ### Linux (Ubuntu)
 
-    INSTALL CODE HERE
+1. Open up a terminal (Menu -> Accessories -> Terminal)
+2. Type the following in the terminal:
+    1. `sudo apt-get update && sudo apt-get upgrade`
+    2. `sudo apt-get install build-essential bison autoconf g++`
+    3. `sudo apt-get install curl zlib1g-dev libreadline5-dev`
+    4. `sudo apt-get install libsqlite3-dev libxslt-dev libxml2-dev`
+    5. `sudo apt-get install sqlite3 git-core subversion nginx`
+    6. `wget ftp://ftp.ruby-lang.org//pub/ruby/1.9/ruby-1.9.2-p0.tar.gz`
+    7. `tar -xf ruby-1.9.2-p0.tar.gz && cd ruby-1.9.2-p0`
+    8. `./configure && make && sudo make install`
+    9. `sudo gem update --system`
+    10. `sudo gem install facets linguistics sqlite3-ruby --no-ri --no-rdoc`
+    11. `sudo gem install nokogiri rake prawn pony sequel gist --no-ri --no-rdoc`
+    12. `sudo gem install sinatra rails padrino nanoc eventmachine thin rack --no-ri --no-rdoc`
+    13. `sudo gem install haml rdiscount builder rvm --no-ri --no-rdoc`
+    14. `rvm-install`
+    15. `gedit ~/.bashrc ~/.bash_profile`
+3. Inside the .bashrc file delete this: `[ -z "$PS1" ] && return`
+4. Add at the very bottom `[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"`
+5. Save and close the file
+6. Inside the .bash_Profile add this: `[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"`
+7. Save and close the file
+8. Go back to the terminal and type: `rvm update --head`
+9. Type in the terminal: `exit`
+10. In Gedit, open the Edit menu and go to Preferences:
+    1. Check off `Enable Text Wrapping`
+    2. Check off `Display Line Numbers`
+    3. Check off `Highlight Current Line`
+    4. Check off `Highlight Maching Bracket`
+    5. Go to the Editor tab.
+    6. `Tab Width` should be 4
+    7. Check off `Insert Spaces Instead Of Tabs
+    8. Check off `Enable Automatic Indention`
+    9. Go to Font & Colors, pick something sane (Use monospace fonts, size 8-12)
+    10. Close Preferences.
+11. Add the Terminal & Gedit shortcut somewhere close
+12. Open up the terminal and type this: `mkdir ~/repo ~/repo/rb ~/repo/rb/lyar`
 
 ### Windows (XP)
 
@@ -24,10 +62,12 @@ There is no specific result. You should have working copies of both Ruby and Ged
 
 ## Details
 
-Ok, we're assuming you know how to use your operating system. If you don't you're going to have a little difficulty. I suggest you do some research, fire up Google and look around. It would literally take me an entire book to just talk about the various Operating Systems.
+Ok, as I wrote above we're assuming you know how to use your operating system. If you don't you're going to have a little difficulty. I suggest you do some research, fire up Google and look around. It would literally take me an entire book to just talk about the various Operating Systems.
+
+If you have a problem simply copy the error, open up your browser to here: http://gist.github.com paste the error to that log field, and paste the resulting new link in a new issue here (You'll need a github account): http://github.com/krainboltgreene/learn-you-an-ruby-for-awesome-power/issues
 
 ## Extra Credit
 
-1. 
-2. 
-3. 
+1. Open and use Gedit a few times, write some things.
+2. Install and setup git/github (http://github.com/)
+3. Download all the LYAR Tasks.
