@@ -15,11 +15,9 @@ If you're using an OS different from these three we assume you know what you're 
     1. `sudo apt-get update && sudo apt-get upgrade`
     2. `sudo apt-get install build-essential bison autoconf g++ curl zlib1g-dev libreadline5-dev libsqlite3-dev libxslt-dev libxml2-dev`
     3. `sudo apt-get install sqlite3 git-core subversion nginx`
-    4. `wget ftp://ftp.ruby-lang.org//pub/ruby/1.9/ruby-1.9.2-p0.tar.gz`
-    5. `tar -xf ruby-1.9.2-p0.tar.gz && cd ruby-1.9.2-p0 && ./configure && make && sudo make install`
-    6. `sudo gem install facets linguistics sqlite3-ruby nokogiri rake prawn pony sequel gist sinatra rails padrino nanoc eventmachine thin rack haml rdiscount builder --no-ri --no-rdoc`
-    7. `sudo bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )`
-    8. `gedit ~/.bashrc ~/.bash_profile`
+    4. `sudo bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )`
+    5. `rvm install 1.9.2 && rvm --default 1.9.2`
+    6. `gedit ~/.bashrc ~/.bash_profile`
 3. Inside the .bashrc file delete this: `[ -z "$PS1" ] && return`
 4. Add at the very bottom `[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"`
 5. Save and close the file
@@ -69,3 +67,4 @@ If you have a problem simply copy the error, open up your browser to here: [http
 1. Open and use Gedit a few times, write some things.
 2. Install and setup git/github [http://github.com/](http://github.com/)
 3. Download all the LYAR Tasks.
+4. Type this into a terminal: `gem install facets linguistics sqlite3-ruby nokogiri rake prawn pony sequel gist sinatra rails padrino nanoc eventmachine thin rack haml rdiscount builder --no-ri --no-rdoc`
