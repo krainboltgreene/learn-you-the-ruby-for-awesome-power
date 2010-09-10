@@ -21,7 +21,7 @@ exciting episode!
     * Credits & License
 2. [Ready! Set! Hack.](chapter-two.md)
     * How This Book Works
-    * Task 0 - `_why`: I Need Ruby, Lots Of Ruby
+    * Task 0 - \_why: I Need Ruby, Lots Of Ruby
     * Task 1 - A Boy And His Dog
     * Task 2 - The Wealthiest Merchant And His Daughter
     * Task 3 - A Cause For Great Alarms

@@ -15,8 +15,8 @@ If you're using an OS different from these three we assume you know what you're 
     1. `sudo apt-get update && sudo apt-get upgrade`
     2. `sudo apt-get install build-essential bison autoconf g++ curl zlib1g-dev libreadline5-dev libsqlite3-dev libxslt-dev libxml2-dev`
     3. `sudo apt-get install sqlite3 git-core subversion nginx`
-    4. `sudo bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )`
-    5. `rvm install 1.9.2 && rvm --default 1.9.2`
+    4. `bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )`
+    5. `rvm install 1.9.2 && rvm --default 1.9.2 && source ~/.rvm/scripts/rvm`
     6. `gedit ~/.bashrc ~/.bash_profile`
 3. Inside the .bashrc file delete this: `[ -z "$PS1" ] && return`
 4. Add at the very bottom `[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"`
