@@ -1,23 +1,25 @@
-# Task ... - ...
+## Task ...
+## ...
 
-## Summary
+### Summary
 
 
 
-## Source
+### Source
+
 <script src=""></script>
     
 
-## Result
+### Results
 
     $ ruby lyar#.rb
     > 
 
-## Details
+### Details
 
 
 
-## Extra Credit
+### Extra Credit
 
 1. 
 2. 

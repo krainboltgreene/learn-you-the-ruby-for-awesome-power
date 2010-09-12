@@ -165,4 +165,4 @@ Alright, you've gotten through the boring part of the book. You know about Ruby,
 * [Learn You Some Erlang For Great Good](http://learnyousomeerlang.com/)
 * [Learning Clojure](http://en.wikibooks.org/wiki/Learning_Clojure)
 
-Also, here's the [copyright](COPYRIGHT).
+Also, here's the [copyright](COPYRIGHT.md).
