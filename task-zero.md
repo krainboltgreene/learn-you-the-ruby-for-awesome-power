@@ -18,25 +18,23 @@ If you're using an OS different from these three we assume you know what you're 
     2. `sudo apt-get install build-essential bison autoconf g++ curl zlib1g-dev libreadline5-dev libsqlite3-dev libxslt-dev libxml2-dev`
     3. `sudo apt-get install sqlite3 git-core subversion nginx`
     4. `bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )`
-    5. `rvm install 1.9.2 && rvm --default 1.9.2 && source ~/.rvm/scripts/rvm`
+    5. `source ~/.rvm/scripts/rvm`
+    5. `rvm install 1.9.2 && rvm --default 1.9.2`
     6. `gedit ~/.bashrc ~/.bash_profile`
 4. Inside the .bashrc file delete this: `[ -z "$PS1" ] && return`
 5. Add at the very bottom `[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"`
 7. Inside the .bash_Profile add this: `[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"`
 8. Save and close both files
-9. Go back to the terminal and type: `rvm update --head`
 9. Type in the terminal: `exit`
 10. In Gedit, open the Edit menu and go to Preferences:
-    1. Check off `Enable Text Wrapping`
-    2. Check off `Display Line Numbers`
-    3. Check off `Highlight Current Line`
-    4. Check off `Highlight Maching Bracket`
-    5. Go to the Editor tab.
-    6. `Tab Width` should be 4
-    7. Check off `Insert Spaces Instead Of Tabs
-    8. Check off `Enable Automatic Indention`
-    9. Go to Font & Colors, pick something sane (Use monospace fonts, size 8-12)
-    10. Close Preferences.
+    1. Check off `Highlight Current Line`
+    2. Check off `Highlight Maching Bracket`
+    3. Go to the Editor tab.
+    4. `Tab Width` should be 4
+    5. Check off `Insert Spaces Instead Of Tabs
+    6. Check off `Enable Automatic Indention`
+    7. Go to Font & Colors, pick something sane (Use monospace fonts, size 8-12)
+    8. Close Preferences.
 11. Add the Terminal & Gedit shortcut somewhere close
 12. Open up the terminal and type this: `mkdir ~/repo ~/repo/rb ~/repo/rb/lyar`
 
