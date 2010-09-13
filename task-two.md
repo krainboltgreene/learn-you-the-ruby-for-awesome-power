@@ -50,11 +50,15 @@ In the previous task you learned about the `puts` method. In this task we see an
 
 Notice Line 23, how there is a comma separating the two strings. Methods can have arguments, and each argument is separated by a comma. On line 23 the `puts` method is given two arguments, both strings. It displays each argument with an appended new line. The `print` method works similarly, but doesn't add the new line, and instead concatenates the strings. In fact on Line 16 we had to add a new line as the final argument.
 
-You may notice something else new in this source, and that would be the `(` and `)` characters, or _parentheses_ (The first one is called an _open parentheses_ and the second a _close parentheses_). Method arguments are wrapped in parentheses, but it's not explicitly required in most cases.
+You may notice something else new in this source: the `(` and `)` characters, or _parentheses_ (The first one is called an _open parentheses_ and the second a _close parentheses_). Method arguments are wrapped in parentheses, but it's not explicitly required in most cases. Parentheses are a good way to keep things organized and plain to read.
 
+Finally, and more important than all the other things that appear in this source, is the comments. Comments are bits of text that describe the intent or process of the code around them. Comments are created by prepend a `#` or _pound sign_ (Also called: _hash_). Anything after the `#` is ignored by the Ruby interpreter!
+
+As an aside you may have noticed how some of the `"` characters have a prepended `\` character or _blackslash_. This character, used inside `"` wrapped strings tells the interpreter to treat it as a string instead of syntax. The character will be used more in the future, but doesn't mean much.
 
 ### Extra Credit
 
-1. 
-2. 
-3. 
+1. Remove the first `#` character on line 14 and run the code. What happens?
+2. Add more string arguments to the `puts` and `print` methods.
+3. Remove the `(` and `(` characters and run the code. What happens?
+4. Insert `\n` characters into one of the strings and run the code. What happens?

@@ -52,5 +52,5 @@ You may also notice that there is a space between `puts` and the first `"` or `'
 1. Change some of the words (other than puts) in the story.
 2. Add some extra words and characters to the story.
 3. Add some extra lines to the story with extra puts methods.
-4. Change the `'` to `"` characters. What happens? Then revert to the original.
-5. Change the `puts` method to something else. What happens? Then revert to the original.
+4. Change the `'` to `"` characters and run the code. What happens? Then revert to the original.
+5. Change the `puts` method to something else and run the code. What happens? Then revert to the original.
