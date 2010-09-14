@@ -1,4 +1,5 @@
-## Task Two - The Wealthiest Merchant And His Daughter
+## Task Two
+## The Wealthiest Merchant And His Daughter
 
 ### Summary
 

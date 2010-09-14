@@ -1,13 +1,15 @@
-# Task One -- A Boy And His Dog
+## Task One
+## A Boy And His Dog
 
 > **Note**: If you haven't finished Task Zero you're going to have a very unpleasant time. This is the first and last time I'll tell you not to skip ahead.
 
-## Summary
+### Summary
 
 You should by now know what a terminal is. If you don't remember, just go back to Task Zero.. This task will show you how to print text directly to the terminal output.
 
-## Source
-<script src=""></script>
+### Source
+
+    <script src=""></script>
     puts "A Boy And His Dog"
     puts "================="
     puts "It was a cold winter morning in the Forgotten Valley."
@@ -17,7 +19,7 @@ You should by now know what a terminal is. If you don't remember, just go back t
     puts '"We are sure to find lost treasure!"'
     puts 'The abandoned temple to the Golden Arches awaited.'
 
-## Result
+### Result
 
     $ Ruby lyar1.rb
     > A Boy And His Dog
@@ -29,7 +31,7 @@ You should by now know what a terminal is. If you don't remember, just go back t
     > "We are sure to find lost treasure!"
     > The abandoned temple to the Golden Arches awaited.
 
-## Details
+### Details
 
 You might not realize it but you've done three things already just by writing this source code and running it:
 
@@ -47,7 +49,7 @@ After you run this script you should have a series of text lines appearing in yo
 
 You may also notice that there is a space between `puts` and the first `"` or `'`. This is a single _whitespace_ space character (Also shown as `\b` or `\s` inside strings). You can put as many _whitespace_ space characters as you want because Ruby will ignore those. Other _whitespace_ characters include the tab (`\t`) and the return (`\n` or `\r`), but we'll talk about those later.
 
-## Extra Credit
+### Extra Credit
 
 1. Change some of the words (other than puts) in the story.
 2. Add some extra words and characters to the story.
