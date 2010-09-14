@@ -13,6 +13,8 @@
 * A detailed description of each (new) important part
 * And some extra credit tasks
 
+![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
+
 Now that we know all the pieces to the puzzle it's time to learn how to read and use this book. Follow each step exactly and then go wild:
 
 1. Read the brief description, don't worry if you don't fully understand it

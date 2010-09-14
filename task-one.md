@@ -7,6 +7,8 @@
 
 You should by now know what a terminal is. If you don't remember, just go back to Task Zero.. This task will show you how to print text directly to the terminal output.
 
+![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
+
 ### Source
 
     <script src=""></script>

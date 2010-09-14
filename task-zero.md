@@ -4,6 +4,8 @@
 
 This is the first lesson and it's probably the most important one you'll ever go through. Sadly it can also be the most difficult lesson. On the other hand you should only have to do this once every year or so. We're going to install Ruby and Gedit.
 
+![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
+
 ## Source
 
 If you're using an OS different from these three we assume you know what you're doing. If you have problems, look in the Details section.
