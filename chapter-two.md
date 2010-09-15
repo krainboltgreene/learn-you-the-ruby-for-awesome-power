@@ -2,7 +2,6 @@
 
 > **Note**: I adore notes.
 
-
 ## How This Book Works
 
 **Good!** You've heroically made it to chapter two. I promise this chapter won't be too terribly long. In fact it'll only be 5 seconds. In fact chapters three through ten will all be five sections long, while chapter two will have 2 setup sections and 5 learning sections. Each section of each chapter will be in five important sections:
@@ -26,7 +25,7 @@ Now that we know all the pieces to the puzzle it's time to learn how to read and
 
 It is very important that you type each bit of source code out. It will make the learning process a whole lot easier and give you a deeper, first hand, understanding of writing Ruby code. Once you've followed each step carefully you should understand another portion of how to program with Ruby. Initially this might be a very difficult way of learning how to program with Ruby, but if you stick with it you'll be hacking out apps left and right. One last thing before we start you on the really interesting things: Have. Fun.
 
-* [Task Zero](task-zero.md)
-* [Task One](task-one.md)
-* [Task Two](task-two.md)
-* [Task Three](task-three.md)
+* [Task Zero](/task-zero)
+* [Task One](/task-one)
+* [Task Two](/task-two)
+* [Task Three](/task-three)

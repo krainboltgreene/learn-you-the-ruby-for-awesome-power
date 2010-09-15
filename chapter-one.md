@@ -1,6 +1,6 @@
 # And Then There Was Ruby
 
-> Note: If you want to get straight to hacking start at [Chapter 2: Ready! Set! Hack](chapter-two.md).
+> Note: If you want to get straight to hacking start at [Chapter 2: Ready! Set! Hack](/chapter-two).
 
 ## HCP: Hackers, Code, and Programming
 
@@ -176,4 +176,4 @@ Alright, you've gotten through the boring part of the book. You know about Ruby,
 * [Learn You Some Erlang For Great Good](http://learnyousomeerlang.com/)
 * [Learning Clojure](http://en.wikibooks.org/wiki/Learning_Clojure)
 
-Also, here's the [copyright](COPYRIGHT.md).
+Also, here's the [copyright](/copyright).

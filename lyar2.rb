@@ -18,11 +18,14 @@ puts "The adventurous two wandered through abandoned cities and towns."
 
 # puts "Avoiding raiders and wastelanders." # This is line is a comment.
 
-print( "One time the two happened on a small town named ", '"Wall Mart Town"', "\n" )
+print "One time the two happened on a small village named "
+puts '"Wall Mart Town"'
 
 ### You can put multiple pound signs, but it doesn't read anything after the
 ## first pound sign. ##
-    # You can even indent the comments!
+# You can even indent the comments!
 
-puts "\"Hey Lucky,\" the boy says, \"Lets check this place out!\""
-puts("The dog didn't think this was a good idea.", "But he's a dog, so what does he know!")
+print "\"Hey Lucky,\" the boy says"
+print " "
+puts "\"Lets check this place out!\""
+puts "The dog didn't think this was a good idea."

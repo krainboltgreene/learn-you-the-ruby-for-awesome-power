@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 author = "Kurtis Rainbolt-Greene"
-# created: 
+# created: 2010.09.14-19:21:17
 # encoding: utf-8
 
 puts "A Boy And His Dog"
