@@ -1,9 +1,8 @@
 # Ready! Set! Hack.
-
 > **Note**: I adore notes.
 
-## How This Book Works
 
+## How This Book Works
 **Good!** You've heroically made it to chapter two. I promise this chapter won't be too terribly long. In fact it'll only be 5 seconds. In fact chapters three through ten will all be five sections long, while chapter two will have 2 setup sections and 5 learning sections. Each section of each chapter will be in five important sections:
 
 * A brief summary of what the section will teach you

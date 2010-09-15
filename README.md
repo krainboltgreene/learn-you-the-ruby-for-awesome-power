@@ -10,7 +10,6 @@ through the forgotten wastelands of history and time itself! Don't miss a single
 exciting episode!
 
 # Table Of Contents
-
 [Table Of Contents][/table-of-contents]
 
 [Copyright][/copyright]

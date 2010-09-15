@@ -1,5 +1,4 @@
 # Table Of Contents
-
 1. And Then There Was Ruby
 
   * HCP: Hackers, Code, And Programming

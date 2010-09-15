@@ -1,5 +1,37 @@
-# And Then There Was Ruby
+![Duck Typing](http://dl.dropbox.com/u/9330920/Documents/Writings/Tech/lyarfap/soviet-duck.png "In Russia, Duck Type YOU!")
 
+Learn You An Ruby For Awesome Power
+===================================
+
+Learn You An Ruby is more than a book. It's an epic, a ballad, and a soap opera 
+all combine into one miraculous journey. Learn You An Ruby is the tale of one 
+man, his dog, and the Ruby programming language. Together you journey with him 
+through the forgotten wastelands of history and time itself! Don't miss a single
+exciting episode!
+
+# Table Of Contents
+1. And Then There Was Ruby
+
+  * HCP: Hackers, Code, And Programming
+  * def ruby
+  * The Ruby Revolution & Renaissance
+  * Rock Out To The Rock Star
+  * The Cherry Kool-Aid
+  * Credits & License
+
+2. Ready! Set! Hack.
+
+  * How This Book Works
+  * Task 0 - \_why: I Need Ruby, Lots Of Ruby
+  * Task 1 - Puts and Strings
+  * Task 2 - Print, Comments, and Backslash
+  * Task 3 - Numbers, Basic Math, and Arguments
+  * Task 4 - Variables
+  * Task 5 - 
+
+3. 
+
+# And Then There Was Ruby
 > Note: If you want to get straight to hacking start at [Chapter 2: Ready! Set! Hack](/chapter-two).
 
 ## HCP: Hackers, Code, and Programming
@@ -38,23 +70,24 @@ The act of programming is to write these scripts or applications in a programmin
 
 This program tells the computer to take every number from 1 to 10, add them together, and display the sum (55). It's complex, arcane, and completely unreadable to the naked eye for most people. Would you believe that people actually programmed applications this way? Simple software, like a calculator, required complex and time consuming work that was error prone and easily crashed. The same code is written here in Ruby:
 
-
 ## Ruby's Count 1 To 10, Print Sum
+
     total = 0
     count = 1
-
+    
     while count <= 10
     
       total += count
       count += 1
-      
-    end
     
+    end
+        
     print total
 
 Or even:
 
 ### Ruby's Count 1 To 10, Print Sum
+
     print (1..10).sum
 
 ![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
@@ -62,6 +95,7 @@ Or even:
 It's obvious in the previous two examples that programming languages are a tool for making developing easier. Programming in Ruby works by writing text (like above), having the Ruby interpretor compile it, and getting the result of your work. The next two examples are exactly the same, first in Java a really powerful and common language, the second in Ruby:
 
 ### Java's "Hello, World"
+
     public class HelloWorld {
       public static void main(String[] args) {
         System.out.println("Hello, World");
@@ -69,13 +103,13 @@ It's obvious in the previous two examples that programming languages are a tool 
     }
 
 ### Ruby's "Hello, World"
+
     print 'Hello, World'
     
 Meanwhile, _Code_ is a language agnostic term for the source code that we write. Further, source code is is any collection of statements or declarations written in some human-readable computer programming language. The above examples I've listed are exactly that: Code.
 
 
 ## def ruby
-
 > A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.
 
 > **Ruby Lang**, http://ruby-lang.org
@@ -112,7 +146,6 @@ Like every other language Ruby has some bad parts too. The Ruby Community is so 
 
 
 ## The Ruby Revolution & Renaissance
-
 Now that you know what Ruby is (or at least the definition of Ruby) and how it started, it's time to learn about the history. The era, called the _Ruby Revolution_ by some, of most significance started in 2004. The Ruby Revolution concerns the period of time where Rails hit the scene and started to cause a fuss among web developers. The "fuss" would be called _Ruby Philosophy_. The core philosophy behind Ruby is "DRY: Don't Repeat Yourself". During this time period you can see at least three sides forming in the web development community: The older fellows who liked what they had (JavaEE, PHP) and didn't think this new fangled Ruby On Rails was worth the change, the younger developers who quite enjoyed the ease Rails and Ruby gave them, and those that didn't care either way.
 
 While web development and web frameworks existed long before Rails, it was commonly considered that web application development sucked. It was something you had to really plow through without much help. The idea that web development could be significantly easier made a lot of people happy. Of course, Ruby and Rails wasn't (and isn't) perfect, but it was the initial push toward making things easier that mattered. The thing is the Ruby Revolution wouldn't have happened without the success of Ruby On Rails with American developers. Thanks to the Rails phenomenon the number of Ruby developers in the United states and European Union grew by incredible amounts. Even though there is an even smaller divide among Rubyists on Rails, we owe a lot of Ruby's following and popularity to Rails.
@@ -125,7 +158,6 @@ A lot of articles have been written and will be written about the Ruby Revolutio
 
 
 ## Rock Out To The Rock Star
-
 The term Rockstar, or Rock Star, in the context of developers or developing is commonly meant to describe someone who has a cult like following. Rock Stars are programmers who do things (sometimes amazing things) and advance the community or the language. Like Jimi Hendrix, Elvis, and Lynyrd Skynyrd, the Rock Stars usually have a large amount of followers and disciples that watch their every word and movement. Rock Stars don't have everything going for them however. Much like the music gods they're titled after eventually the Rock Star burns out and either becomes destructive or washes away in mystery. I know, who thought Programming could be so dramatic?
 
 The Ruby Community has two Rock Stars worth taking serious notice of. Both of these Rock Stars are people I look up to and look forward to matching one day. They have changed the face of Ruby and will be remembered for a very long time. It's hard to look at Ruby and not see the areas that they've changed and so they are in my Ruby Rock Star Hall of Fame, if you will. The first is Zed Shaw, someone whom you might already know from his rants and usual internet ravings. A musician and a talent, he has since left the Ruby community. The second is Why The Lucky Stiff, or \_why, and has paved the path for a kinder and more enjoyable Ruby experience for a lot of new people. He is also considered to be one of the more wild aspects of Ruby developing. He has since left the internet completely, committing what many consider to be "Internet Suicide."
@@ -140,7 +172,6 @@ While Rock Stars have a limited time to do good before they burn out it's import
 
 
 ## The Cherry Kool-Aid
-
 Like many geek cultures that exist today the programming communities tend to have a very common problem: Power users, fanboys, and evangelists. Fanatics of a religion, political party, or creed have always existed and the programming culture is no less afflicted by them. In fact due to the social ineptitude many geeks live with we are more prone to the red haze of cultism. You're mistaken if you think I'm joking when I say that there have been actual fist fights over which indentation style to use in C, or what command line editor to write with. Despite the Hacker culture's focus on individuality and freedom, the Ruby world is still a geek world.
 
 ![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
@@ -163,8 +194,8 @@ The reality here is that geeks of any flavor tend to gush over new toys and geek
 
 ![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
 
-## Credits & Licensing
 
+## Credits & Licensing
 Alright, you've gotten through the boring part of the book. You know about Ruby, the history, and some of the pitfalls of the community. You're equipped, now, to start learning Ruby and building applications. Hopefully you can start understand why I've written this guide, especially this way, once you get into Ruby developing on your own. This book is of course not the last thing you'll read. In fact you should go on to read these great books, because they inspired me to write this:
 
 * [Learn Python The Hard Way](http://learnpythonthehardway.org/) (Read Chapter 1 first, then you can read either book.)
@@ -176,4 +207,207 @@ Alright, you've gotten through the boring part of the book. You know about Ruby,
 * [Learn You Some Erlang For Great Good](http://learnyousomeerlang.com/)
 * [Learning Clojure](http://en.wikibooks.org/wiki/Learning_Clojure)
 
-Also, here's the [copyright](/copyright).
+[Learn You An Ruby For Awesome Power](http://learnyouanruby.com) by [Kurtis Rainbolt-Greene](http://my-resume.kicks-ass.net) is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
+
+Based on a work at [learnyouanruby.info](http://learnyouanruby.info/source.tar.gz).
+
+# Ready! Set! Hack.
+> **Note**: I adore notes.
+
+
+## How This Book Works
+**Good!** You've heroically made it to chapter two. I promise this chapter won't be too terribly long. In fact it'll only be 5 seconds. In fact chapters three through ten will all be five sections long, while chapter two will have 2 setup sections and 5 learning sections. Each section of each chapter will be in five important sections:
+
+* A brief summary of what the section will teach you
+* A bit of source code
+* A result of running the code
+* A detailed description of each (new) important part
+* And some extra credit tasks
+
+![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
+
+Now that we know all the pieces to the puzzle it's time to learn how to read and use this book. Follow each step exactly and then go wild:
+
+1. Read the brief description, don't worry if you don't fully understand it
+2. Create a new file, in your projects directly (We'll get to that), called `lyar#.rb` and replace the # with the task number.
+3. Write each line from the source code into the file. **Do not copy and paste**. The point is to learn by doing.
+4. Read the detailed description and the code you just wrote.
+5. Run the code, see if you get the desired output. If you don't, return to step 3. _**Note**: Some sections will have **secret bugs** just for you to figure out!_
+6. If you feel confidant check out the extra credit portions, change the code around, and get messy!
+
+It is very important that you type each bit of source code out. It will make the learning process a whole lot easier and give you a deeper, first hand, understanding of writing Ruby code. Once you've followed each step carefully you should understand another portion of how to program with Ruby. Initially this might be a very difficult way of learning how to program with Ruby, but if you stick with it you'll be hacking out apps left and right. One last thing before we start you on the really interesting things: Have. Fun.
+
+## Task Zero
+## \_why: I Need Ruby, Lots Of Ruby
+
+### Summary
+This is the first lesson and it's probably the most important one you'll ever go through. Sadly it can also be the most difficult lesson. On the other hand you should only have to do this once every year or so. We're going to install Ruby and Gedit.
+
+![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
+
+
+### Source
+If you're using an OS different from these three we assume you know what you're doing. If you have problems, look in the Details section.
+
+#### Ubuntu
+1. Open up a terminal (Menu -> Accessories -> Terminal)
+2. Type the following in the terminal:
+    1. `sudo apt-get update && sudo apt-get upgrade && sudo apt-get install build-essential bison autoconf g++`
+    2. `sudo apt-get install zlib1g-dev libreadline-dev libsqlite3-dev libxslt-dev libxml2-dev`
+    3. `sudo apt-get install curl sqlite3 git-core subversion nginx gedit`
+    4. `bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )`
+    5. `source ~/.rvm/scripts/rvm && rvm install 1.9.2 && rvm --default 1.9.2`
+    6. `mkdir ~/repo ~/repo/rb ~/repo/rb/lyar && gedit ~/.bashrc ~/.bash_profile`
+3. Inside the .bashrc file delete this: `[ -z "$PS1" ] && return`
+4. Add at the very bottom `[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"`
+5. Inside the .bash_profile add this: `[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"`
+6. Save and close both files
+7. Type in the terminal: `exit`
+8. In Gedit, open the Edit menu and go to Preferences:
+    1. Check off `Highlight Current Line` and `Highlight Matching Bracket`
+    2. Go to the Editor tab.
+    3. `Tab Width` should be 4
+    4. Check off `Insert Spaces Instead Of Tabs` and `Enable Automatic Indention`
+9. Add the Terminal & Gedit shortcuts to the panel
+
+### Result
+There is no specific result. You should have working copies of both Ruby and Gedit now installed on your computer. See the Details and Extra Credit section for more information.
+
+
+### Details
+Ok, as I wrote above we're assuming you know how to use your operating system. If you don't you're going to have a little difficulty. I suggest you do some research, fire up Google and look around. It would literally take me an entire book to just talk about the various Operating Systems.
+
+If you have a problem simply copy the error, open up your browser to here: [http://gist.github.com](http://gist.github.com) paste the error to that log field, and paste the resulting new link in a new issue here (You'll need a Github account): [http://github.com/krainboltgreene/learn-you-an-ruby-for-awesome-power/issues](http://github.com/krainboltgreene/learn-you-an-ruby-for-awesome-power/issues)
+
+
+## Extra Credit
+1. Open a few text files with gedit, get to know the interface and shortcuts.
+2. Customize Gedit, Terminal, and your OS to better suit programming.
+3. Go to the Learn You An Ruby website and download all the tasks and read through the glossary
+4. Type this into a terminal: `gem install facets rspec linguistics sqlite3-ruby nokogiri rake pony sequel sinatra rails padrino nanoc eventmachine thin rack rack-test haml rdiscount --no-ri --no-rdoc`
+
+## Task One
+## Puts and Strings
+
+> **Note**: If you haven't finished Task Zero you're going to have a very unpleasant time. This is the first and last time I'll tell you not to skip ahead.
+
+### Summary
+You should by now know what a terminal is. If you don't remember, just go back to Task Zero.. This task will show you how to print text directly to the terminal output.
+
+![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
+
+
+### Source
+    <script src=""></script>
+    puts "A Boy And His Dog"
+    puts "================="
+    puts "It was a cold winter morning in the Forgotten Valley."
+    puts 'The boy looked to his dog and said, "Look there, Lucky!"'
+    puts '"The Temple of Golden Arches!" The dog glumly barked.'
+    puts "Venturing forth they climb down from the mountainside."
+    puts '"We are sure to find lost treasure!"'
+    puts 'The abandoned temple to the Golden Arches awaited.'
+
+### Result
+    $ ruby lyar1.rb
+    > A Boy And His Dog
+    > =================
+    > It was a cold winter morning in the Forgotten Valley.
+    > The boy looked to his dog and said, "Look there, Lucky!"
+    > "The Temple of Golden Arches!" The dog glumly barked.
+    > Venturing forth they climb down from the mountainside.
+    > "We are sure to find lost treasure!"
+    > The abandoned temple to the Golden Arches awaited.
+
+
+### Details
+You might not realize it but you've done three things already just by writing this source code and running it:
+
+1. You've written your first method!
+2. You've written your first string!
+3. You've used the `"` and `'` characters to create a string!
+
+After you run this script you should have a series of text lines appearing in your terminal screen, one after the other. A small story has formed before your very eyes! It's time to describe each portion of this source code:
+
+* Each line in the source code tells the Ruby interpreter to print the string out to the display
+* `puts` is a method. This method sends text to the output. The output we're dealing with in this source code is the terminal screen.
+* `"` or the _double quotation mark_ and the `'` or the _single quotation mark_ are used to tell the interpreter that the content inside is a string.
+* A string is a series of characters connected together.
+* A character is a unit of information that roughly corresponds to a grapheme, grapheme-like unit, or symbol, such as in an alphabet or syllabary in the written form of a natural language.
+
+You may also notice that there is a space between `puts` and the first `"` or `'`. This is a single _whitespace_ space character (Also shown as `\b` or `\s` inside strings). You can put as many _whitespace_ space characters as you want because Ruby will ignore those. Other _whitespace_ characters include the tab (`\t`) and the return (`\n` or `\r`), but we'll talk about those later.
+
+
+### Extra Credit
+1. Change some of the words (other than puts) in the story.
+2. Add some extra words and characters to the story.
+3. Add some extra lines to the story with extra puts methods.
+4. Change the `'` to `"` characters and run the code. What happens? Then revert to the original.
+5. Change the `puts` method to something else and run the code. What happens? Then revert to the original.
+
+## Task Two
+## Print, Comments, and Backslash
+
+### Summary
+In this task we'll learn about the other output display method, method arguments, and commenting. You'll learn about where and how to comment, why you want to comment, and the very basics of what an argument is! More importantly you'll find out about method syntax!
+
+![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
+
+
+### Source
+    <script src=""></script>
+    # This line is a comment. A comment is used to
+    # document source code. This makes it easier to
+    # read for others, and yourself.
+
+    puts "The Wealthiest Merchant And His Daughter"
+    puts "========================================"
+    
+    # Any part of a line after the pound sign is a comment, and not interpreted.
+    
+    puts "The boy and his lucky dog travelled along the wasteland together." # Like this.
+    puts "They saw many things, but mostly trash and death." # These are comments
+    puts "The adventurous two wandered through abandoned cities and towns."
+    
+    # puts "Avoiding raiders and wastelanders." # This is line is a comment.
+    
+    print "One time the two happened on a small village named "
+    puts '"Wall Mart Town"'
+    
+    ### You can put multiple pound signs, but it doesn't read anything after the
+    ## first pound sign. ##
+    # You can even indent the comments!
+    
+    print "\"Hey Lucky,\" the boy says"
+    print " "
+    puts "\"Lets check this place out!\""
+    puts "The dog didn't think this was a good idea."
+
+
+### Result
+    $ ruby lyar2.rb
+    > The Wealthiest Merchant And His Daughter
+    > ========================================
+    > The boy and his lucky dog travelled along the wasteland together.
+    > They saw many things, but mostly trash and death.
+    > The adventurous two wandered through abandoned cities and towns.
+    > One time the two happened on a small village named "Wall Mart Town"
+    > "Hey Lucky," the boy says "Lets check this place out!"
+    > The dog didn't think this was a good idea.
+
+### Details
+In the previous task you were introduced to the `puts` method. In this task we see a new method being used, the `print` method. You may notice something different about the output `print` produces. This is because `print` does **not** append a `\n` or _new line_ character to the text, where `puts` does. This means that two lines of `print` will concatenate (or plug together) in the output.
+
+You may also notice two new characters introduced in this task. The first is the `#` character or _pound sign_, sometimes called a _hash_. You will notice in the Result that the text after the `#` are completely ignored! This is called a _comment_. Comments are bits of text used to describe the intent or process of the code around them. This is a great documentation tool and should be used when necessary to help others, and yourself, later understand things.
+
+The second special character you might have noticed is `\` character or _blackslash_. The `\` does two things depending on what character it is prepended to. In this source they are prepended to `"` characters. This use, inside `"` wrapped strings tells the interpreter to treat the `"` as a regular character instead of the start or end of a string. The `\` is printed directly if inside a `'` wrapped string.
+
+
+### Extra Credit
+1. Remove the first `#` character on line 14 and run the code. What happens?
+2. Add more string arguments to the `puts` and `print` methods.
+3. Delete line 24 and run the code. What happens? Then revert the changes.
+4. Insert `\n` characters into one of the strings wrapped with `"` characters and run the code. What happens? Then revert the changes.
+5. Insert `\n` characters into one of the strings wrapped with `'` characters and run the code. What happens? Then revert the changes.
+
+
