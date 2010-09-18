@@ -1,7 +1,7 @@
 1. Open up a terminal (Menu -> Accessories -> Terminal)
 2. Type the following in the terminal:
     1. `sudo apt-get update && sudo apt-get upgrade && sudo apt-get install build-essential bison autoconf g++`
-    2. `sudo apt-get install zlib1g-dev libreadline-dev libsqlite3-dev libxslt-dev libxml2-dev`
+    2. `sudo apt-get install zlib1g-dev libreadline-dev libsqlite3-dev libxslt-dev libxml2-dev libssl-dev`
     3. `sudo apt-get install curl sqlite3 git-core subversion nginx gedit`
     4. `bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )`
     5. `source ~/.rvm/scripts/rvm && rvm install 1.9.2 && rvm --default 1.9.2`

@@ -1,3 +1,0 @@
-You may notice something else new in this source: the `(` and `)` characters, or _parentheses_ (The first one is called an _open parentheses_ and the second a _close parentheses_). Method arguments are wrapped in parentheses, but it's not explicitly required in most cases. Parentheses are a good way to keep things organized and plain to read.
-
-Notice Line 23, how there is a comma separating the two strings. Methods can have arguments, and each argument is separated by a comma. On line 23 the `puts` method is given two arguments, both strings. It displays each argument with an appended new line. The `print` method works similarly, but doesn't add the new line, and instead concatenates the strings. In fact on Line 16 we had to add a new line as the final argument.

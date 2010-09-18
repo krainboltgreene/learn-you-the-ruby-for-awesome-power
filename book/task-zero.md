@@ -34,4 +34,4 @@ If you have a problem simply copy the error, open up your browser to here: [http
 1. Open a few text files with gedit, get to know the interface and shortcuts.
 2. Customize Gedit, Terminal, and your OS to better suit programming.
 3. Go to the Learn You An Ruby website and download all the tasks and read through the glossary
-4. Type this into a terminal: `gem install facets rspec linguistics sqlite3-ruby nokogiri rake pony sequel sinatra rails padrino nanoc eventmachine thin rack rack-test haml rdiscount --no-ri --no-rdoc`
+4. Type this into a terminal: `gem install haml rails bundler eventmachine thin facets linguistics nanoc nokogiri pony rack rack-test rake rdiscount rspec sequel sinatra sinatra-cache sqlite3-ruby --no-ri --no-rdoc`
