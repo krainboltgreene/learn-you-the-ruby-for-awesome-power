@@ -10,15 +10,40 @@ This is the first lesson and it's probably the most important one you'll ever go
 ### Source
 If you're using an OS different from these three we assume you know what you're doing. If you have problems, look in the Details section.
 
-#### Major Operating Systems
-[Linux (Ubuntu - Fedora)](/install-linux)
-[Windows (XP - Vista - 7)](/install-windows) **INCOMPLETE**
-[Mac (10.5)](install-mac) **INCOMPLETE**
+#### Linux
+1. Open up a terminal (Menu -> Accessories -> Terminal)
+2. Type the following in the terminal:
+    1. `sudo apt-get update && sudo apt-get upgrade && sudo apt-get install build-essential bison autoconf g++`
+    2. `sudo apt-get install zlib1g-dev libreadline-dev libsqlite3-dev libxslt-dev libxml2-dev libssl-dev`
+    3. `sudo apt-get install curl sqlite3 git-core subversion nginx gedit`
+    4. `bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )`
+    5. `rvm update --head && source ~/.rvm/scripts/rvm && rvm install 1.9.2 && rvm --default 1.9.2`
+    6. `echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"' >> .bashrc`
+    7. `echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"' >> .bash_profile`
+    8. `mkdir ~/repo ~/repo/rb ~/repo/rb/lyar && gedit ~/.bashrc`
+3. Inside the .bashrc file delete this: `[ -z "$PS1" ] && return`
+4. Save and close both files
+5. Type in the terminal: `exit`
+6. In Gedit, open the Edit menu and go to Preferences:
+    1. Check off `Highlight Current Line` and `Highlight Matching Bracket`
+    2. Go to the Editor tab.
+    3. `Tab Width` should be 4
+    4. Check off `Insert Spaces Instead Of Tabs` and `Enable Automatic Indention`
+7. Add the Terminal & Gedit shortcuts to the panel
 
-#### Minor Operating Systems
-[BSD (FreeBSD - OpenBSD)](/install-bsd) **INCOMPLETE**
-[Unix (OpenSolaris - Solaris)](/install-unix) **INCOMPLETE**
+> **CentOS Notes**: bison autoconf gcc-c++ zlib-devel readline-devel sqlite-devel libxslt-devel libxml2-devel
+> **BSD**: bison autoconf gcc-c++ zlib-devel readline-devel sqlite-devel libxslt-devel libxml2-devel
 
+#### Windows **INCOMPLETE**
+1. Open up your browser to this link: http://rubyforge.org/frs/download.php/72170/rubyinstaller-1.9.2-p0.exe
+2. Double click on the installer
+3. Agree to the terms and conditions
+4. Don't change the file path
+5. Magic happens
+6. You have Ruby! Yeah, I'm working on this.
+
+#### Mac **INCOMPLETE**
+1. fuuuuuuuuuuuuuu
 
 ### Result
 There is no specific result. You should have working copies of both Ruby and Gedit now installed on your computer. See the Details and Extra Credit section for more information.

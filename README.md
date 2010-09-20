@@ -8,10 +8,3 @@ all combine into one miraculous journey. Learn You An Ruby is the tale of one
 man, his dog, and the Ruby programming language. Together you journey with him 
 through the forgotten wastelands of history and time itself! Don't miss a single
 exciting episode!
-
-# Table Of Contents
-[Table Of Contents][/table-of-contents]
-
-[Copyright][/copyright]
-
-[Todo List][/todo]
