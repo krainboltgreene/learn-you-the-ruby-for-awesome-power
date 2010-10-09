@@ -12,21 +12,21 @@ If you're using an OS different from these three we assume you know what you're 
 
 #### Linux
 1. Open up a terminal (Menu -> Accessories -> Terminal) and type:
-    1. `sudo apt-get update && sudo apt-get upgrade && sudo apt-get install build-essential bison autoconf g++`
-    2. `sudo apt-get install zlib1g-dev libreadline-dev libsqlite3-dev libxslt-dev libxml2-dev libssl-dev`
-    3. `sudo apt-get install curl sqlite3 git-core subversion nginx gedit`
-    4. `bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )`
-    5. `rvm update --head && source ~/.rvm/scripts/rvm && rvm install 1.9.2 && rvm --default 1.9.2`
-    6. `gem i haml sinatra rails thin nanoc nokogiri pony rack rake rdiscount rspec sequel sqlite3-ruby --no-ri --no-rdoc`
-    7. `echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"' >> .bashrc && >> .bash_profile`
-    8. `mkdir ~/repo ~/repo/rb ~/repo/rb/lyar && gedit ~/.bashrc`
-2. Inside the .bashrc file delete this: `[ -z "$PS1" ] && return`. Save and close both files
-3. Type in the terminal: `exit`
-4. In Gedit, open the Edit menu and go to Preferences:
+    1. `sudo apt-get update && sudo apt-get install build-essential bison autoconf g++`
+    2. `sudo apt-get install zlib1g-dev libreadline-dev libsqlite3-dev libxslt-dev libxml2-dev libssl-dev
+    3. `sudo apt-get install curl git-core subversion`
+    4. `sudo apt-get install gedit` and your choice of server, I usually grab `nginx` or `lighttpd`
+    5. `bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )`
+    6. `source ~/.rvm/scripts/rvm && rvm update --head && rvm reload && rvm install 1.9.2 && rvm --default 1.9.2 && rvm 1.9.2@global`
+    7. `gem i haml thin nokogiri pony rack rake rdiscount rspec sequel sqlite3-ruby --no-ri --no-rdoc && rvm 1.9.2`
+    7. `echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"' >> ~/.bashrc && >> ~/.bash_profile`
+    8. `mkdir ~/repo ~/repo/rb ~/repo/rb/lyar && gedit ~/.bashrc
+2. Inside the .bashrc file delete this: `[ -z "$PS1" ] && return`.
+3. In Gedit, open the Edit menu and go to Preferences:
     1. Check off `Highlight Current Line` and `Highlight Matching Bracket`
     2. Go to the Editor tab.
-    3. `Tab Width` should be 4.
-    4. Check off `Insert Spaces Instead Of Tabs` and `Enable Automatic Indention`
+    3. `Tab Width` should be 4. Check off `Insert Spaces Instead Of Tabs` and `Enable Automatic Indention`
+4. Save and close Gedit. Type `exit` in the Terminal.
 5. Add the Terminal & Gedit shortcuts to the panel
 
 > **CentOS Notes**: bison autoconf gcc-c++ zlib-devel readline-devel sqlite-devel libxslt-devel libxml2-devel
