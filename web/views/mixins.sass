@@ -1,0 +1,83 @@
+@mixin center
+  display: block
+  @include margin-x(auto)
+@mixin outline($px: 5px)
+  @include margin($px)
+  @include padding($px)
+@mixin margin($px: 5px)
+  @include margin-x($px)
+  @include margin-y($px)
+@mixin margin-x($px: 5px)
+  margin-left: $px
+  margin-right: $px
+@mixin margin-y($px: 5px)
+  margin-top: $px
+  margin-bottom: $px
+@mixin padding($px: 5px)
+  @include padding-x($px)
+  @include padding-y($px)
+@mixin padding-x($px: 5px)
+  padding-left: $px
+  padding-right: $px
+@mixin padding-y($px: 5px)
+  padding-top: $px
+  padding-bottom: $px
+@mixin round($px: 5px)
+  @include round-top($px)
+  @include round-bottom($px)
+@mixin round-top($px: 5px)
+  @include round-top-left($px)
+  @include round-top-right($px)
+@mixin round-bottom($px: 5px)
+  @include round-bottom-left($px)
+  @include round-bottom-right($px)
+@mixin round-left($px: 5px)
+  @include round-top-left($px)
+  @include round-bottom-left($px)
+@mixin round-right($px: 5px)
+  @include round-top-right($px)
+  @include round-bottom-right($px)
+@mixin round-top-left($px: 5px)
+  border-top-left-radius: $px
+  -moz-border-top-left-radius: $px
+  -webkit-border-top-left-radius: $px
+  -o-border-top-left-radius: $px
+@mixin round-top-right($px: 5px)
+  border-top-right-radius: $px
+  -moz-border-top-right-radius: $px
+  -webkit-border-top-right-radius: $px
+  -o-border-top-right-radius: $px
+@mixin round-bottom-left($px: 5px)
+  border-bottom-left-radius: $px
+  -moz-border-bottom-left-radius: $px
+  -webkit-border-bottom-left-radius: $px
+  -o-border-bottom-left-radius: $px
+@mixin round-bottom-right($px: 5px)
+  border-bottom-right-radius: $px
+  -moz-border-bottom-right-radius: $px
+  -webkit-border-bottom-right-radius: $px
+  -o-border-bottom-right-radius: $px
+@mixin shadow($type, $h: 2px, $w: 2px, $fade: 2px, $color: #111)
+  #{$type}-shadow: $h $w $fade $color
+  -moz-#{$type}-shadow: $h $w $fade $color
+  -webkit-#{$type}-shadow: $h $w $fade $color
+  -o-#{$type}-shadow: $h $w $fade $color
+@mixin inset-shadow($h: 2px, $w: 2px, $fade: 2px, $color: #111)
+  box-shadow: inset $h $w $fade $color
+  -moz-box-shadow: inset $h $w $fade $color
+  -webkit-box-shadow: inset $h $w $fade $color
+  -o-box-shadow: inset $h $w $fade $color
+@mixin fade-out
+  opacity: 1.0
+  &:hover
+    opacity: 0.5
+@mixin fade-in
+  opacity: 0.50
+  &:hover
+    opacity: 1.0
+@mixin serif-font($family: 'Droid Serif')
+  font-family: $family, Georgia, "Times New Roman", "DejaVu Serif", "Nimbus Mono L", serif
+@mixin sans-serif-font($family: 'Droid Sans')
+  font-family: $family, Arial, Helvetica, "DejaVu Sans", "Nimbus Roman N09 L", sans-serif
+@mixin monospace-font($family: 'Droid Monospace')
+  font-family: $family, Inconsolata, "Courier New", "DejaVu Sans Mono", "Nimbus Mono L", monospace

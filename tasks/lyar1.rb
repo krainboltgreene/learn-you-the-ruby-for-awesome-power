@@ -11,3 +11,5 @@ puts '"The Temple of Golden Arches!" The dog glumly barked.'
 puts "Venturing forth they climb down from the mountainside."
 puts '"We are sure to find lost treasure!"'
 puts 'The abandoned temple to the Golden Arches awaited.'
+
+
