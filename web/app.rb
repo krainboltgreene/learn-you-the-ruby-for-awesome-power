@@ -22,6 +22,14 @@ get '/' do
     haml :index
 end
 
+get '/browser' do
+    @view = {
+        title: 'Oh noes!',
+        author: author,
+        }
+    haml :index
+end
+
 get '/book/chapter/:chapter' do |chapter|
     @view = {
         title: 'Chapter ' + chapter,
