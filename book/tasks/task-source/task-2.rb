@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
-author = "Kurtis Rainbolt-Greene"
-# created: 2010.09.09 21:13:07 
 # encoding: utf-8
+# author: "Kurtis Rainbolt-Greene"
+# created: 2010.09.09 21:13:07
 
 # This line is a comment. A comment is used to
 # document source code. This makes it easier to
@@ -23,7 +23,7 @@ puts '"Wall Mart Town"'
 
 ### You can put multiple pound signs, but it doesn't read anything after the
 ## first pound sign. ##
-# You can even indent the comments!
+    # You can even indent the comments!
 
 print "\"Hey Lucky,\" the boy says"
 print " "

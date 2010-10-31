@@ -1,4 +1,5 @@
 # Table Of Contents
+
 1. [And Then There Was Ruby](/book/chapter/one)
     * [HCP: Hackers, Code, And Programming](/book/chapter/one#section-one)
     * [def ruby](/book/chapter/one#section-two)

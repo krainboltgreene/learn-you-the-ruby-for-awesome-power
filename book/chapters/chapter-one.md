@@ -121,18 +121,6 @@ Like many geek cultures that exist today the programming communities tend to hav
 
 Ever since Rails rolled out the Ruby community has stepped knee deep in hype and hyperbole. It started off as lot of programmers becoming very enthusiastic about a new and expressive language. It didn't help that the community had a lot of early Rock Stars emerging from Rails, and that they talked a lot of smack about other languages. Many touted Ruby as the Great White Hope of Programming. It's a general consensus among Rubyits that the egotism and dickery comes directly from Rails's growth.
 
-What is this bad behavior exactly? Well here's an example:
-
-> krainbolt: What are some of the bad sides of Ruby? The problems, if you will?
-
-> csmrfx: absolutely none. While ruby is not perfect, its still the best.
-
-> krainbolt: That has to be a joke. Please tell me you're joking.
-
-> csmrfx: No.
-
-> **#ruby**, irc.freenode.com
-
 The reality here is that geeks of any flavor tend to gush over new toys and geeks of any flavor tend to rant about others gushing. In recent years the type of behavior described has slowly ground to a halt as the fanatics are pushed aside and the community, and language, matures. It is important to realize that his behavior stems from ignorance and the best cure is education. We as a group cannot abide by this blind fervor because it will ultimately ruin a lot of what Ruby stands for: The enjoyment of developing.
 
 \![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
