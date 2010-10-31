@@ -1,58 +1,46 @@
 # Table Of Contents
-1. And Then There Was Ruby
+1. [And Then There Was Ruby](/book/chapter/one)
+    * [HCP: Hackers, Code, And Programming](/book/chapter/one#section-one)
+    * [def ruby](/book/chapter/one#section-two)
+    * [The Ruby Revolution & Renaissance](/book/chapter/one#section-three)
+    * [Rock Out To The Rock Star](/book/chapter/one#section-four)
+    * [The Cherry Kool-Aid](/book/chapter/one#section-five)
+    * [Credits & License](/book/chapter/one#section-six)
+    * [How This Book Works](/book/chapter/one#section-seven)
 
-  * HCP: Hackers, Code, And Programming
-  * def ruby
-  * The Ruby Revolution & Renaissance
-  * Rock Out To The Rock Star
-  * The Cherry Kool-Aid
-  * Credits & License
+2. [Ready! Set! Hack.](/book/chapter/two)
+    * [Task 0 - \_why: I Need Ruby, Lots Of Ruby](/book/chapter/two#section-one)
+    * [Task 1 - Puts and Strings](/book/chapter/two#section-two)
+    * [Task 2 - Print, Comments, and Backslash Characters](/book/chapter/two#section-three)
+    * [Task 3 - Numbers, Math, and Interpolation](/book/chapter/two#section-four)
+    * [Task 4 - ](/book/chapter/two#section-five)
+    * [Task 5 - ](/book/chapter/two#section-six)
+    * [Task 6 - ](/book/chapter/two#section-seven)
+    * [Task 7 - ](/book/chapter/two#section-eight)
+    * [Task 8 - ](/book/chapter/two#section-nine)
+    * [Task 9 - ](/book/chapter/two#section-ten)
 
-2. Ready! Set! Hack.
+3. [The Trail To Neverland](/book/chapter/three)
+    * [Task 10 - ](/book/chapter/three#section-one)
+    * [Task 11 - ](/book/chapter/three#section-two)
+    * [Task 12 - ](/book/chapter/three#section-three)
+    * [Task 13 - ](/book/chapter/three#section-four)
+    * [Task 14 - ](/book/chapter/three#section-five)
+    * [Task 15 - ](/book/chapter/three#section-six)
+    * [Task 16 - ](/book/chapter/three#section-seven)
+    * [Task 17 - ](/book/chapter/three#section-eight)
+    * [Task 18 - ](/book/chapter/three#section-nine)
+    * [Task 19 - ](/book/chapter/three#section-ten)
 
-  * How This Book Works
-  * Task 0 - \_why: I Need Ruby, Lots Of Ruby
-  * Task 1 - Puts and Strings
-  * Task 2 - Print, Comments, and Backslash Characters
-  * Task 3 - Numbers, Math, and Interpolation
-  * Task 4 - 
-  * Task 5 - 
-  * Task 6 - 
-  * Task 7 - 
-  * Task 8 - 
-  * Task 9 - 
-  * Task 10 - 
-  * Task 11 - 
-  * Task 12 - 
-  * Task 13 - 
-  * Task 14 - 
-  * Task 15 - 
-  * Task 16 - 
-  * Task 17 - 
-  * Task 18 - 
-  * Task 19 - 
-  * Task 20 - 
-  * Task 21 - 
-  * Task 22 - 
-  * Task 23 - 
-  * Task 24 - 
-  * Task 25 - 
-  * Task 26 - 
-  * Task 27 - 
-  * Task 28 - 
-  * Task 29 - 
-  * Task 30 - 
-  * Task 31 - 
-  * Task 32 - 
-  * Task 33 - 
-  * Task 34 - 
-  * Task 35 - 
-  * Task 36 - 
-  * Task 37 - 
-  * Task 38 - 
-  * Task 39 - 
-  * Task 40 - 
-
-3. The Trail To Neverland
-4. It's Rubies All The Way Down
-5. Index
+4. [It's Rubies All The Way Down](/book/chapter/four)
+    * [Task 20 - ](/book/chapter/four#section-one)
+    * [Task 21 - ](/book/chapter/four#section-two)
+    * [Task 22 - ](/book/chapter/four#section-three)
+    * [Task 23 - ](/book/chapter/four#section-four)
+    * [Task 24 - ](/book/chapter/four#section-five)
+    * [Task 25 - ](/book/chapter/four#section-six)
+    * [Task 26 - ](/book/chapter/four#section-seven)
+    * [Task 27 - ](/book/chapter/four#section-eight)
+    * [Task 28 - ](/book/chapter/four#section-nine)
+    * [Task 29 - ](/book/chapter/four#section-ten)
+...
