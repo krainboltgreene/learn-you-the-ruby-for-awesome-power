@@ -27,7 +27,7 @@ get '/browser' do
         title: 'Oh noes!',
         author: author,
         }
-    haml :index
+    haml :browser
 end
 
 get '/book/chapter/:chapter' do |chapter|
