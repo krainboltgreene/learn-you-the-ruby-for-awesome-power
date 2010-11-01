@@ -1,11 +1,32 @@
+Todo
+====
+
+Writing
+-------
 * Write 50 general tasks.
 * Write 10 tasks using the Sinatra gem.
 * Write 10 tasks using the Treetop gem.
 * Write 10 tasks using the Nokogiri gem.
 * Write 10 tasks using the Shoes gem.
-* Restyle the web interface to be easier on the eyes.
+* Have a Project Why type thing for Euler type questions.
+
+Art
+---
 * Get at least 1 piece of art for each task, and each chapter heading.
-* Work on the mobile styles.
+
+Styling
+-------
+* Restyle the web interface to be easier on the eyes.
 * Proof read each chapter.
+* Work on the mobile styles.
 * Work on the Printer style.
 * Work on the paperback version.
+* Rewrite the Gist stylesheets.
+* Make the H3 styles less inset. Maybe italics?
+* The results code needs a black background, bigger font.
+* Add NEXT CHAPTER and PREV CHAPTER navigation elements at top&&bottom.
+
+Programming
+-----------
+* Rewrite the Link href's for the gists
+* Build a Ruby web console. Perhaps to the side or bottom?
