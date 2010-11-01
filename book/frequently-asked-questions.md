@@ -1,3 +1,7 @@
+
+Frequently Asked Questions
+==========================
+
 > **Q**: Is Ruby hard to learn?
 **A**: Ruby isn't hard to pick up at all if you're willing to learn. In fact you 
 should be able to learn Ruby very quickly as long as you take the guide slowly, 

@@ -59,11 +59,11 @@ Meanwhile, _Code_ is a language agnostic term for the source code that we write.
 
 - - -
 
-![It Came From Japana](/img/from-japan.png ":horror-face:")
-
 > Ruby is a dynamic, reflective, general purpose object-oriented programming language that combines syntax inspired by Perl with Smalltalk-like features. Ruby originated in Japan during the mid-1990s and was initially developed and designed by Yukihiro "Matz" Matsumoto. It is based on Perl, Smalltalk, Eiffel, Ada, and Lisp.
 > 
 > **Wikipedia**, http://en.wikipedia.org/wiki/Ruby_(programming_language)
+
+![It Came From Japana](/img/from-japan.png ":horror-face:")
 
 You didn't come here to read about a few definitions, though. You came here to learn about Ruby (or else you're going to be mildly disappointed). So let's learn about Ruby: Ruby is a programming language. Ok, so you probably figured that out already. Here's some important information that wont make sense yet: The Ruby programming language is expressive, imperative, and object-oriented. Ruby doesn't require a compile step, but instead is interpreted by an interpretor. The Ruby programming language is geared toward and designed for both simplicity and enjoyability. Ruby's goal is to make development very fun and easy for developers.
 
