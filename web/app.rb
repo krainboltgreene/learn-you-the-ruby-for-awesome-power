@@ -76,10 +76,6 @@ get '/404' do
     haml :fourohfour
 end
 
-get '/*' do
-    redirect '/404'
-end
-
 get '/*.css?' do |sheet|
     content_type 'text/css', charset: 'utf-8'
     unless sheet == 'mobile'
@@ -87,4 +83,8 @@ get '/*.css?' do |sheet|
     else
         sass :mobile
     end
+end
+
+get '/*' do
+    redirect '/404'
 end
