@@ -39,7 +39,7 @@ Or even:
 
 ![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
 
-It's obvious in the previous two examples that programming languages are a tool for making developing easier. Programming in Ruby works by writing text (like above), having the Ruby interpretor compile it, and getting the result of your work. The next two examples are exactly the same, first in Java a really powerful and common language, the second in Ruby:
+It's obvious in the previous two examples that programming languages are a tool for making developing easier. Programming in Ruby works by writing text (like above), having the Ruby interpreter compile it, and getting the result of your work. The next two examples are exactly the same, first in Java a really powerful and common language, the second in Ruby:
 
 ### Java's "Hello, World"
 
@@ -65,7 +65,7 @@ Meanwhile, _Code_ is a language agnostic term for the source code that we write.
 
 ![It Came From Japana](/img/from-japan.png ":horror-face:")
 
-You didn't come here to read about a few definitions, though. You came here to learn about Ruby (or else you're going to be mildly disappointed). So let's learn about Ruby: Ruby is a programming language. Ok, so you probably figured that out already. Here's some important information that wont make sense yet: The Ruby programming language is expressive, imperative, and object-oriented. Ruby doesn't require a compile step, but instead is interpreted by an interpretor. The Ruby programming language is geared toward and designed for both simplicity and enjoyability. Ruby's goal is to make development very fun and easy for developers.
+You didn't come here to read about a few definitions, though. You came here to learn about Ruby (or else you're going to be mildly disappointed). So let's learn about Ruby: Ruby is a programming language. Ok, so you probably figured that out already. Here's some important information that wont make sense yet: The Ruby programming language is expressive, imperative, and object-oriented. Ruby doesn't require a compile step, but instead is interpreted by an interpreter. The Ruby programming language is geared toward and designed for both simplicity and enjoyability. Ruby's goal is to make development very fun and easy for developers.
 
 > Experienced programmers should take note of the term "Object-Oriented." That's not "Object-Curious", or "Object-Casual." This isn't that one time at band camp when your program let another modify his orientation for the night. This is an object-oriented language and you'll be dealing with Classes and Objects the entire time. Everything, and I do mean everything, is an Object in Ruby, even the results from methods (a more manlier word for function) are an Object.
 
@@ -88,7 +88,7 @@ Ruby has a lot of good facets (haha, precious gem joke) that are very easy to id
 
 ![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
 
-Like every other language Ruby has some bad parts too. The Ruby Community is so terrible that I've devoted an entire chapter just to the culture around Ruby. The standard Ruby interpretor (1.8) is really slow compared to pretty much every other modern used language. The latest stable version (1.9) is only just now coming into broad usage by developers. Ruby isn't scalable naturally for the most part, and requires external sources and languages to assist it. One programmer has told me that the long time solution to this was, "Run more machines with Ruby," which is an obviously flawed approach. Open Ruby projects tend to have serious little or poor documentation and for the most part hasn't improved.
+Like every other language Ruby has some bad parts too. The Ruby Community is so terrible that I've devoted an entire chapter just to the culture around Ruby. The standard Ruby interpreter (1.8) is really slow compared to pretty much every other modern used language. The latest stable version (1.9) is only just now coming into broad usage by developers. Ruby isn't scalable naturally for the most part, and requires external sources and languages to assist it. One programmer has told me that the long time solution to this was, "Run more machines with Ruby," which is an obviously flawed approach. Open Ruby projects tend to have serious little or poor documentation and for the most part hasn't improved.
 
 
 ## [The Ruby Revolution & Renaissance](id:section-three)
