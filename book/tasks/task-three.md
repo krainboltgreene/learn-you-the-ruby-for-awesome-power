@@ -5,11 +5,11 @@
 In this task we'll be learning about how Ruby handles numbers, math, and Boolean Operators. We'll also look into something called "Interpolation."
 
 ### Source
-<script src="http://gist.github.com/654757.js?file=lyar3.rb"></script>
+<script src="http://gist.github.com/654757.js?file=lytr3.rb"></script>
     
 
 ### Results
-    $ ruby lyar3.rb
+    $ ruby lytr3.rb
     > 
 
 ### Details

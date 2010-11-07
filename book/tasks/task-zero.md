@@ -14,7 +14,7 @@ If you're using an OS different from these three we assume you know what you're 
     3. `bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )`
     4. `source ~/.rvm/scripts/rvm && rvm update --head && rvm reload && rvm install 1.9.2 && rvm --default 1.9.2`
     5. `echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"' >> ~/.bashrc && >> ~/.bash_profile`
-    6. `mkdir ~/repo ~/repo/rb ~/repo/rb/lyar && gedit ~/.bashrc
+    6. `mkdir ~/repo ~/repo/rb ~/repo/rb/lytr && gedit ~/.bashrc
 2. Inside the .bashrc file delete this: `[ -z "$PS1" ] && return` if it's there.
 3. In gedit, open the Edit menu and go to Preferences:
     1. Check off `Highlight Current Line` and `Highlight Matching Bracket`
@@ -49,7 +49,7 @@ If you have a problem simply copy the error, open up your browser to here: [http
 ### Extra Credit
 1. Open a few text files with gedit, get to know the interface and shortcuts.
 2. Customize gedit, Terminal, and your OS to better suit your style.
-3. Go to the Learn You An Ruby website and download all the tasks and read through the glossary.
+3. Go to the Learn You The Ruby website and download all the tasks and read through the glossary.
 4. Type this in these terminal
     1. `rvm --create 1.9.2@web-development`
     2. `gem i haml thin nokogiri pony rack rake rdiscount rspec sequel sqlite3-rubyn sinatra rails nanoc --no-ri --no-rdoc`

@@ -42,8 +42,8 @@ Ruby this seems like such a tragedy.
 
 > **Q**: Have you built any others?
 
-**A**: Other **Learn You An**'s? Not yet, but I seriously plan to. I look forward to 
-finishing the LYAR website only to do a Learn You An Factor, Learn You An 
+**A**: Other **Learn You The**'s? Not yet, but I seriously plan to. I look forward to 
+finishing the lytr website only to do a Learn You An Factor, Learn You An 
 Clojure, and many many more if I have the time.
 
 > **Q**: Can you help me make my own?

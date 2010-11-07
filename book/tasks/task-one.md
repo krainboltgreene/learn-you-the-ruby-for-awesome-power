@@ -7,11 +7,11 @@
 You should by now know what a terminal is. If you don't remember, just go back to Task Zero.. This task will show you how to print text directly to the terminal output.
 
 ### Source
-<script src="http://gist.github.com/654757.js?file=lyar1.rb"></script>
+<script src="http://gist.github.com/654757.js?file=lytr1.rb"></script>
     
 
 ### Result
-    $ ruby lyar1.rb
+    $ ruby lytr1.rb
     >
 
 ### Details

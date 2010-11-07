@@ -159,7 +159,7 @@ Also, here's the [copyright](/book/copyright).
 Now that we know all the pieces to the puzzle it's time to learn how to read and use this book. Follow each step exactly and then go wild:
 
 1. Read the brief description, don't worry if you don't fully understand it
-2. Create a new file, in your projects directly (We'll get to that), called `lyar#.rb` and replace the # with the task number.
+2. Create a new file, in your projects directly (We'll get to that), called `lytr#.rb` and replace the # with the task number.
 3. Write each line from the source code into the file. **Do not copy and paste**. The point is to learn by doing.
 4. Read the detailed description and the code you just wrote.
 5. Run the code, see if you get the desired output. If you don't, return to step 3. _**Note**: Some sections will have **secret bugs** just for you to figure out!_

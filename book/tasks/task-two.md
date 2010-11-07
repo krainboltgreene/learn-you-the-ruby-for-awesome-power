@@ -5,11 +5,11 @@
 In this task we'll learn about the other output display method, method arguments, and commenting. You'll learn about where and how to comment, why you want to comment, and the very basics of what an argument is! More importantly you'll find out about method syntax!
 
 ### Source
-<script src="http://gist.github.com/654757.js?file=lyar2.rb"></script>
+<script src="http://gist.github.com/654757.js?file=lytr2.rb"></script>
     
 
 ### Result
-    $ ruby lyar2.rb
+    $ ruby lytr2.rb
     > 
 
 ### Details
