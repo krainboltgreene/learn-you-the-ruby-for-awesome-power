@@ -18,7 +18,7 @@ set :sass, { style: :compressed }
 
 get '/' do
     @view = {
-        title: 'Learn You An Ruby For Awesome Power',
+        title: 'Learn You The Ruby For Awesome Power',
         author: author,
         description: description,
         tags: tags

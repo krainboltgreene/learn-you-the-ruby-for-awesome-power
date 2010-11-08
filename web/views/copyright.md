@@ -1,1 +1,1 @@
-/home/krainboltgreene/repo/rb/lyarfap/COPYRIGHT
+/home/krainboltgreene/repo/rb/lytrfap/COPYRIGHT

@@ -1,1 +1,1 @@
-/home/krainboltgreene/repo/rb/lyarfap/book/frequently-asked-questions.md
+/home/krainboltgreene/repo/rb/lytrfap/book/frequently-asked-questions.md
