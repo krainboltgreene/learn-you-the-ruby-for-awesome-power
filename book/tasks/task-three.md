@@ -1,4 +1,4 @@
-## [T-3](id:section-four) Nums, Interpolation, and Boolean
+## [T-3](id:section-four) Numbers, Interpolation, and Boolean
 \![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
 
 ### Summary
