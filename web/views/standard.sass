@@ -1,0 +1,99 @@
+@import "variables"
+@import "mixins"
+@import "clean"
+html
+  -webkit-font-smoothing: antialiased
+  overflow-y: scroll
+body
+  color: #444
+  @include sans-serif-font
+  font-size: 10px
+h1
+  @include outline
+  @include sans-serif-font
+  font-size: 64px
+  font-weight: bolder
+  text-rendering: optimizeLegibility
+h2
+  @include outline
+  @include sans-serif-font
+  font-weight: bold
+  font-size: 48px
+  text-rendering: optimizeLegibility
+h3
+  @include outline
+  @include sans-serif-font
+  font-weight: normal
+  font-size: 36px
+  text-rendering: optimizeLegibility
+h4
+  @include outline
+  @include sans-serif-font
+  font-weight: lighter
+  font-size: 24px
+h5
+  @include outline
+  @include sans-serif-font
+  font-weight: lighter
+  font-size: 18px
+h6
+  @include outline
+  @include sans-serif-font
+  font-weight: bold
+  font-size: 14px
+p
+  @include outline
+  @include serif-font
+  font-size: 16px
+  text-align: justify
+ul
+  list-style: disc inside
+ol
+  list-style: decimal inside
+ol, ul
+  @include outline
+  margin-left: 25px
+  & li
+    @include sans-serif-font
+    font-size: 16px
+pre
+  white-space: pre
+  white-space: pre-wrap
+  white-space: pre-line
+  word-wrap: break-word
+code, pre
+  @include outline
+  @include monospace-font
+  font-size: 1em
+  color: green
+a
+  text-decoration: underline
+  &:hover
+    color: #036
+    text-decoration: none
+  &:active
+    color: #607890
+    outline: none
+  &:focus
+    outline: thin dotted
+  &:link
+    -webkit-tap-highlight-color: #FF5E99
+sub
+  vertical-align: sub
+sup
+  vertical-align: super
+sub,sup
+  font-size: 1px
+input[type=radio]
+  vertical-align: text-bottom
+input[type=checkbox]
+  vertical-align: bottom
+  *vertical-align: baseline
+label, input[type=button], input[type=submit], button
+  cursor: pointer
+button
+  width: auto
+  overflow: visible
+@import "typography"
+@import "forms"
+@import "markdown"

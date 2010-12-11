@@ -1,0 +1,133 @@
+@mixin center
+  display: block
+  @include margin-x(auto)
+
+$outline_width: 5px
+@mixin outline($o: $outline_width)
+  @include margin($o)
+  @include padding($o)
+
+$margin_width: 5px
+@mixin margin($m: $margin_width)
+  @include margin-x($m)
+  @include margin-y($m)
+@mixin margin-x($m: $margin_width)
+  margin-left: $m
+  margin-right: $m
+@mixin margin-y($m: $margin_width)
+  margin-top: $m
+  margin-bottom: $m
+
+$padding_width: 5px
+@mixin padding($p: $padding_width)
+  @include padding-x($p)
+  @include padding-y($p)
+@mixin padding-x($p: $padding_width)
+  padding-left: $p
+  padding-right: $p
+@mixin padding-y($p: $padding_width)
+  padding-top: $p
+  padding-bottom: $p
+
+$horizontal: 3px
+$vertical: 3px
+@mixin round($h: $horizontal, $v: $vertical)
+  @include round-top($horizontal, $vertical)
+  @include round-bottom($horizontal, $vertical)
+@mixin round-top($h: $horizontal, $v: $vertical)
+  @include round-top-left($h, $v)
+  @include round-top-right($h, $v)
+@mixin round-bottom($h: $horizontal, $v: $vertical)
+  @include round-bottom-left($h, $v)
+  @include round-bottom-right($h, $v)
+@mixin round-left($h: $horizontal, $v: $vertical)
+  @include round-top-left($h, $v)
+  @include round-bottom-left($h, $v)
+@mixin round-right($h: $horizontal, $v: $vertical)
+  @include round-top-right($h, $v)
+  @include round-bottom-right($h, $v)
+@mixin round-top-left($h: $horizontal, $v: $vertical)
+  $value: $h $v
+  -moz-border-top-left-radius: $value
+  -webkit-border-top-left-radius: $value
+  -o-border-top-left-radius: $value
+  border-top-left-radius: $value
+@mixin round-top-right($h: $horizontal, $v: $vertical)
+  $value: $h $v
+  -moz-border-top-right-radius: $value
+  -webkit-border-top-right-radius: $value
+  -o-border-top-right-radius: $value
+  border-top-right-radius: $value
+@mixin round-bottom-left($h: $horizontal, $v: $vertical)
+  $value: $h $v
+  -moz-border-bottom-left-radius: $value
+  -webkit-border-bottom-left-radius: $value
+  -o-border-bottom-left-radius: $value
+  border-bottom-left-radius: $value
+@mixin round-bottom-right($h: $horizontal, $v: $vertical)
+  $value: $h $v
+  -moz-border-bottom-right-radius: $value
+  -webkit-border-bottom-right-radius: $value
+  -o-border-bottom-right-radius: $value
+  border-bottom-right-radius: $value
+
+@mixin column($columns, $gap: 5px)
+  -moz-column-count: $columns
+  -webkit-column-count: $columns
+  -o-column-count: $columns
+  column-count: $columns
+  -moz-column-gap: $gap
+  -webkit-column-gap: $gap
+  -o-column-gap: $gap
+  column-gap: $gap
+
+$horizontal_offset: 3px
+$vertical_offset: 4px
+$blur_radius: 3px
+$spread_radius: 1px
+$shadow_color: rgba( 10, 10, 10, .45)
+@mixin shadow($h: $horizontal_offset, $v: $vertical_offset, $c: $shadow_color, $b: $blur_radius, $s: $spread_radius)
+  $value: $h $v $b $s $c
+  -moz-box-shadow: $value
+  -webkit-box-shadow: $value
+  -o-box-shadow: $value
+  box-shadow: $value
+
+$horizontal_offset: 3px
+$vertical_offset: 4px
+$blur_radius: 3px
+$spread_radius: 1px
+$shadow_color: rgba( 10, 10, 10, .45)
+@mixin in-shadow($h: $horizontal_offset, $v: $vertical_offset, $c: $shadow_color, $b: $blur_radius, $s: $spread_radius)
+  $value: $h $v $b $s $c inset
+  -moz-box-shadow: $value
+  -webkit-box-shadow: $value
+  -o-box-shadow: $value
+  box-shadow: $value
+
+$horizontal_offset: 2px
+$vertical_offset: 2px
+$blur_radius: 2px
+$shadow_color: rgba( 10, 10, 10, .45)
+@mixin text-shadow($h: $horizontal_offset, $v: $vertical_offset, $c: $shadow_color, $b: $blur_radius)
+  $value: $h $v $b $c
+  -moz-text-shadow: $value
+  -webkit-text-shadow: $value
+  -o-text-shadow: $value
+  text-shadow: $value
+
+@mixin fade-out
+  opacity: 1.0
+  &:hover
+    opacity: 0.5
+@mixin fade-in
+  opacity: 0.50
+  &:hover
+    opacity: 1.0
+
+@mixin serif-font($ff: 'Droid Serif')
+  font-family: $ff
+@mixin sans-serif-font($ff: 'Droid Sans')
+  font-family: $ff
+@mixin monospace-font($ff: 'Droid Monospace')
+  font-family: $ff
