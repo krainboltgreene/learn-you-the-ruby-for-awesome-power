@@ -14,24 +14,22 @@
         %meta{ name: 'language', content: 'en' }/
         %meta{ name: 'googlebot', content: 'index, follow' }/
         %meta{ name: 'revisit-after', content: '2 days' }/
-        %link{ href: '/img/favicon.png', rel: 'shortcut icon', type: 'image/png' }/
-        %link{ href: '/img/favicon.png', rel: 'apple-touch-icon', type: 'image/png' }/
-        %link{ href: '/styles.css', rel: 'stylesheet', type: 'text/css' }/
+        %link{ href: '/image/favicon.png', rel: 'shortcut icon', type: 'image/png' }/
+        %link{ href: '/image/favicon.png', rel: 'apple-touch-icon', type: 'image/png' }/
+        %link{ href: '/style/all.css', rel: 'stylesheet', type: 'text/css' }/
         /%link{ href: '/mobile.css', rel: 'stylesheet', type: 'text/css', media: 'handheld' }/
-        %link{ href: 'http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif', rel: 'stylesheet', type: 'text/css' }/
-        %script{ src: '/js/modernizr-1.5.min.js', type: 'application/javascript' }
+        %link{ href: 'http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Droid+Sans+Mono', rel: 'stylesheet', type: 'text/css' }/
+        %script{ src: 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js', type: 'text/javascript' }
+        %script{ src: '/javascript/modernizr.min.js', type: 'text/javascript' }
     %body
         #header
-            - if @view[:title] == "Learn You The Ruby For Awesome Power"
-                %img{ src: '/img/soviet-duck.png', title: 'IN SOVIET RUBY, DUCK TYPES YOU!' }
-        #container
+            = haml :_header, layout: false
+        #content
             = yield
         #footer
-            %p#copyright
-                %a{ href: '/book/copyright', title: "You can read the silly copyright information here. Frankly I don't see the need, though. It's all free! Every little bit of it!" } Copyright.
-        %script{ src: 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js', type: 'application/javascript' }
-        %script{ type: 'text/javascript' }
-            if ((navigator.appName == "Microsoft Internet Explorer") && !(window.location.pathname == "/browser/"))  { window.location.pathname = "/browser/" }
+            = haml :_footer, layout: false
+        /%script{ type: 'text/javascript' }
+        /   if ((navigator.appName == "Microsoft Internet Explorer") && !(window.location.pathname == "/browser/"))  { window.location.pathname = "/browser/" }
         %script{ type: 'text/javascript' }
             var _gaq = [['_setAccount', 'UA-XXXXXX-X'], ['_trackPageview']];
             (function(d, t) {
