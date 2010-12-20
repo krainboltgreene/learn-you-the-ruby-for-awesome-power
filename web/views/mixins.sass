@@ -32,8 +32,8 @@ $padding_width: 5px
 $horizontal: 3px
 $vertical: 3px
 @mixin round($h: $horizontal, $v: $vertical)
-  @include round-top($horizontal, $vertical)
-  @include round-bottom($horizontal, $vertical)
+  @include round-top($h, $v)
+  @include round-bottom($h, $v)
 @mixin round-top($h: $horizontal, $v: $vertical)
   @include round-top-left($h, $v)
   @include round-top-right($h, $v)
@@ -48,25 +48,25 @@ $vertical: 3px
   @include round-bottom-right($h, $v)
 @mixin round-top-left($h: $horizontal, $v: $vertical)
   $value: $h $v
-  -moz-border-top-left-radius: $value
+  -moz-border-radius-topleft: $value
   -webkit-border-top-left-radius: $value
   -o-border-top-left-radius: $value
   border-top-left-radius: $value
 @mixin round-top-right($h: $horizontal, $v: $vertical)
   $value: $h $v
-  -moz-border-top-right-radius: $value
+  -moz-border-radius-radius-topright: $value
   -webkit-border-top-right-radius: $value
   -o-border-top-right-radius: $value
   border-top-right-radius: $value
 @mixin round-bottom-left($h: $horizontal, $v: $vertical)
   $value: $h $v
-  -moz-border-bottom-left-radius: $value
+  -moz-border-radius-radius-bottomleft: $value
   -webkit-border-bottom-left-radius: $value
   -o-border-bottom-left-radius: $value
   border-bottom-left-radius: $value
 @mixin round-bottom-right($h: $horizontal, $v: $vertical)
   $value: $h $v
-  -moz-border-bottom-right-radius: $value
+  -moz-border-radius-radiu-bottomrights: $value
   -webkit-border-bottom-right-radius: $value
   -o-border-bottom-right-radius: $value
   border-bottom-right-radius: $value
