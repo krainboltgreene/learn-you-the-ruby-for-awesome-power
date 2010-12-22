@@ -1,0 +1,34 @@
+task :default => [:compile]
+
+task :compile do
+    extras = Dir.glob("./book/*.md").sort
+    sources = Dir.glob("./book/tasks/source/*.rb").sort
+    tasks = Dir.glob("./book/tasks/*.md").sort
+    chapters = Dir.glob("./book/chapters/*.md").sort
+    destination = './web/views/'
+    
+    for extra in extras
+        puts 'Copying ' + extra + 'to ' + destination
+        system "cp #{extra} #{destination}"
+    end
+    
+    for chapter in chapters
+        puts 'Putting ' + chapter + 'in ' + destination
+        system "cp #{chapter} #{destination}"
+    end
+    
+    for source in sources
+        file_name = source.match(/\d/).to_s.to_i
+        file_source = File.read(source)
+        
+        case file_name
+            when 0..5
+                task = File.opentasks[file_name]
+                puts 'Appending ' + source + 'to ' + destination + 'chapter-2.md'
+        end
+    end
+    
+    for task in tasks
+    
+    end
+end
