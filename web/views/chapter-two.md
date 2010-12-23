@@ -1,0 +1,22 @@
+# Ready! Set! Hack.
+**Note: I adore notes.**
+
+TASK ZERO
+
+TASK ONE
+
+TASK TWO
+
+TASK THREE
+
+TASK FOUR
+
+TASK FIVE
+
+TASK SIX
+
+TASK SEVEN
+
+TASK EIGHT
+
+TASK NINE

@@ -8,27 +8,28 @@ task :compile do
     destination = './web/views/'
     
     for extra in extras
-        puts 'Copying ' + extra + 'to ' + destination
+        puts 'Copying ' + extra + ' to ' + destination
         system "cp #{extra} #{destination}"
     end
     
     for chapter in chapters
-        puts 'Putting ' + chapter + 'in ' + destination
+        puts 'Putting ' + chapter + ' in ' + destination
         system "cp #{chapter} #{destination}"
     end
     
-    for source in sources
-        file_name = source.match(/\d/).to_s.to_i
-        file_source = File.read(source)
-        
-        case file_name
-            when 0..5
-                task = File.opentasks[file_name]
-                puts 'Appending ' + source + 'to ' + destination + 'chapter-2.md'
-        end
-    end
-    
     for task in tasks
-    
+        number = task.match(/\d/).to_s.to_i
+        case number
+            when (0..5)
+                chapter = "./web/views/chapter-2.md"
+                puts 'Appending ' + task + ' to ' + chapter
+                File.open chapter, 'a' do |file|
+                    task_file = File.read(task)
+                    task_source = File.read(sources[number]).strip
+                    task_source = task_source.gsub(/\n/,"\n    ") unless number == 0
+                    task_file.gsub!(/### Source/,"### Source\n\n" + task_source) unless sources[number].nil?
+                    file.puts task_file + "\n"
+                end
+        end
     end
 end
