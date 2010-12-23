@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
-# created: 2010.10.29 15:18:39 
 author = "Kurtis Rainbolt-Greene"
+created = "2010.10.29 15:18:39"
 tags = "ruby, rails, learn, tutorial, guide, exercises, tasks, programming, practice, newbie, community, culture"
 description = "A website that helps people learn the Ruby programming language in an enjoyable fashion."
 
@@ -10,70 +10,35 @@ require 'haml'
 require 'sass'
 
 set :port, 9000
-set :static, true
-set :cache_enabled, true
+set :markdown, layout_engine: :haml
 
-set :haml, { attr_wrapper: '"', ugly: true, format: :html5 }
-set :sass, { style: :compressed }
+configure :production do
+    set :static, true
+    set :cache_enabled, true
+
+    set :haml, { attr_wrapper: '"', ugly: true, format: :html5 }
+    set :sass, { style: :compressed }
+end
+
 
 get '/' do
-    @view = {
-        title: 'Learn You The Ruby For Awesome Power',
-        author: author,
-        description: description,
-        tags: tags
-        }
+    @view = {title: 'Learn You The Ruby For Awesome Power', author: author, created: created, tags: tags}
     haml :index
 end
 
-get '/browser' do
-    @view = {
-        title: 'Oh noes!',
-        author: author,
-        description: description,
-        tags: tags
-        }
-    haml :browser
-end
-
-get '/book/chapter/:chapter' do |chapter|
-    @view = {
-        title: 'Chapter ' + chapter,
-        author: author,
-        description: description,
-        tags: tags
-        }
-    haml :markdown, layout: false, locals: { page: "chapter-" + chapter}
-end
-
-get '/book/task/:task' do |task|
-    @view = {
-        title: 'Task ' + task,
-        author: author,
-        description: description,
-        tags: tags
-        }
-    haml :markdown, layout: false, locals: { page: "task-" + task}
-end
-
 get '/book/:misc' do |misc|
-    @view = {
-        title: misc,
-        author: author,
-        description: description,
-        tags: tags
-        }
-    haml :markdown, layout: false, locals: { page: misc}
+    @view = {title: 'LYTR - ' + misc, author: author, created: created, tags: tags}
+    markdown misc
 end
 
 get '/404' do
-    @view = {
-        title: 'Four OH Four',
-        author: author,
-        description: description,
-        tags: tags
-        }
+    @view = {title: 'Error 404: Aw snap :/', author: author}
     haml :fourohfour
+end
+
+get '/browser' do
+    @view = {title: 'Browser Error: Whaaaaat!', author: author}
+    haml :browser
 end
 
 get '/*.css?' do |sheet|

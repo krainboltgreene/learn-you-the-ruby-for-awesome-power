@@ -1,12 +1,17 @@
 task :default => [:compile]
 
 task :compile do
+    images = Dir.glob("./book/images/*.png")
     extras = Dir.glob("./book/*.md").sort
     sources = Dir.glob("./book/tasks/source/*.rb").sort
     tasks = Dir.glob("./book/tasks/*.md").sort
     chapters = Dir.glob("./book/chapters/*.md").sort
     destination = './web/views/'
     
+    for image in images
+        puts 'Copying ' + image + ' to ./web/public/image/'
+        system "cp #{image} ./web/public/image/"
+    end
     for extra in extras
         puts 'Copying ' + extra + ' to ' + destination
         system "cp #{extra} #{destination}"
