@@ -31,6 +31,7 @@ get '/book/:misc' do |misc|
 end
 
 get '/book/chapter/:chapter' do |chapter|
+    @view = {title: 'LYTR - Chapter ' + chapter, author: author, created: created, tags: tags}
     chapter = "chapter-" + chapter
     markdown chapter.to_sym
 end
