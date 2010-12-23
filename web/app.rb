@@ -13,8 +13,7 @@ set :port, 9000
 set :markdown, layout_engine: :haml
 
 configure :production do
-    set :static, true
-    set :cache_enabled, true
+    enable :static, :cache_enabled
 
     set :haml, { attr_wrapper: '"', ugly: true, format: :html5 }
     set :sass, { style: :compressed }
@@ -28,7 +27,17 @@ end
 
 get '/book/:misc' do |misc|
     @view = {title: 'LYTR - ' + misc, author: author, created: created, tags: tags}
-    markdown misc
+    markdown misc.to_sym
+end
+
+get '/book/chapter/:chapter' do |chapter|
+    chapter = "chapter-" + chapter
+    markdown chapter.to_sym
+end
+
+get '/book/task/:task' do |task|
+    task = "task-" + task
+    markdown task.to_sym
 end
 
 get '/404' do

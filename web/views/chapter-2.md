@@ -1,7 +1,6 @@
 # Ready! Set! Hack.
 **Note: I adore notes.**
 
-
 ## [T-0](id:section-one) \_why: I Need Ruby, Lots Of Ruby
 \![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
 
@@ -10,7 +9,7 @@ This is the first task of the book and the most important. It's also the most di
 
 ### Source
 
-We only list the three major Operating Systems because if you're using something like BSD or CentOS you probably know what to do. 
+    We only list the three major Operating Systems because if you're using something like BSD or CentOS you probably know what to do. 
 
 #### Ubuntu
 1. Open up a terminal (Menu -> Accessories -> Terminal) and type:
@@ -74,7 +73,7 @@ You should by now know what a terminal is. If you don't remember, just go back t
 
 ### Source
 
-#!/usr/bin/env ruby
+    #!/usr/bin/env ruby
     # encoding: utf-8
     # author: "Kurtis Rainbolt-Greene"
     # created: 2010.09.14-19:21:17
@@ -125,7 +124,7 @@ In this task we'll learn about the other output display method, method arguments
 
 ### Source
 
-#!/usr/bin/env ruby
+    #!/usr/bin/env ruby
     # encoding: utf-8
     # author: "Kurtis Rainbolt-Greene"
     # created: 2010.09.09 21:13:07
@@ -184,7 +183,7 @@ In this task we'll be learning about how Ruby handles numbers, math, and Boolean
 
 ### Source
 
-#!/usr/bin/env ruby
+    #!/usr/bin/env ruby
     # encoding: utf-8
     # author: "Kurtis Rainbolt-Greene"
     # created: 2010.09.13-17:19:18
@@ -232,7 +231,7 @@ Words Here.
 
 ### Source
 
-#!/usr/bin/env ruby
+    #!/usr/bin/env ruby
     # encoding: utf-8
     # author: "Kurtis Rainbolt-Greene"
     # created:
