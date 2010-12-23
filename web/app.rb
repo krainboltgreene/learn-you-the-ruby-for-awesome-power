@@ -21,7 +21,7 @@ end
 
 
 get '/' do
-    @view = {title: 'Learn You The Ruby For Awesome Power', author: author, created: created, tags: tags}
+    @view = {title: 'LEARN YOU THE RUBY FOR AWESOME POWER', author: author, created: created, tags: tags}
     haml :index
 end
 
