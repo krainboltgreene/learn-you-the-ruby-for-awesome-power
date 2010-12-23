@@ -1,6 +1,6 @@
 # And Then There Was Ruby
 
-**Note: If you want to get straight to hacking start at [Chapter 2: Ready! Set! Hack](/chapter-two).**
+**Note: If you want to get straight to hacking start at [Chapter 2: Ready! Set! Hack](/chapter/2).**
 
 ## [HCP: Hackers, Code, and Programming](id:section-one)
 > The computer programmer is a creator of universes for which he alone is responsible. Universes of virtually unlimited complexity can be created in the form of computer programs. 

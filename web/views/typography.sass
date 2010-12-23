@@ -30,14 +30,12 @@ a
 #content
     width: 100%
     @include outline
-    @include center
     @include round
     @include shadow
     background: rgba(120,120,120,1)
     & h1
         & a
             @include outline
-            @include center
             @include sans-serif-font('Raleway')
             color: rgba(250,220,45,.85)
             @include text-shadow
@@ -45,7 +43,6 @@ a
     & p
         width: 500px
         @include outline
-        @include center
         line-height: 1.5
     & #chrome, #firefox, #opera
         @include outline(10px)
