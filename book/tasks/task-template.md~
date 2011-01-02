@@ -1,25 +1,34 @@
-## [T-#](id:section-num) Title Here
+[T#](id:section-num) Title
+--------------------------------------------------------------------------------
 
 \![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
 
-### Summery
-Words Here.
+
+### Summary
+
+...
 
 
-### Source
-<script src=""></script>
+### Source Code
+
+SOURCECODE
 
 
 ### Results
-    $ ./task-#.rb
-    Results Here
+
+**Outputs**:
+
+    $ ruby task-#.rb
+RESULTCODE
 
 
-### Details
-Words Here.
+### Task Details
+
+...
 
 
 ### Extra Credit
+
 1. Words Here.
 2. Words Here.
 3. Words Here.
