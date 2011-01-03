@@ -1,40 +1,5 @@
 # default.gems generated gem export file. Note that any env variable settings will be missing. Append these after using a ';' field separator
-activesupport -v3.0.3
-chronic -v0.3.0
-configuration -v1.2.0
-daemons -v1.1.0
-delorean -v0.2.1
-diff-lcs -v1.1.2
-eventmachine -v0.12.10
-haml -v3.0.25
-heroku -v1.15.1
-heroku -v1.14.9
-heroku -v1.14.8
-highlight -v1.1.2
-i18n -v0.5.0
-json_pure -v1.4.6
-kitabu -v0.4.7
-launchy -v0.3.7
-mail -v2.2.12
-mime-types -v1.16
-ocra -v1.2.0
-polyglot -v0.3.1
-rack -v1.2.1
-rake -v0.8.7
-rdiscount -v1.6.5
-rest-client -v1.6.1
-rspec -v2.3.0
-rspec -v2.2.0
-rspec-core -v2.3.1
-rspec-core -v2.3.0
-rspec-core -v2.2.1
-rspec-expectations -v2.3.0
-rspec-expectations -v2.2.0
-rspec-mocks -v2.3.0
-rspec-mocks -v2.2.0
-sequel -v3.18.0
-sinatra -v1.1.0
-sqlite3-ruby -v1.3.2
-thin -v1.2.7
-tilt -v1.1
-treetop -v1.4.9
+sinatra
+rdiscount
+haml
+highlight

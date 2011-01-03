@@ -18,7 +18,7 @@ Oh we also talk about your workstation.
     1. `sudo apt-get update && sudo apt-get upgrade` then type "yes" and hit enter.
     2. `sudo apt-get install build-essential bison autoconf g++ \`
     3. `zlib1g-dev libreadline-dev libsqlite3-dev \`
-    4. `libxslt-dev libxml2-dev libssl-dev \'
+    4. `libxslt-dev libxml2-dev libssl-dev \`
     5. `curl git-core subversion` then type "yes" and hit enter.
     6. *Optionally* `sudo apt-get install gedit` if you need it.
     7. `bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )`
@@ -80,7 +80,7 @@ Ruby, and other languages, are tools and tools require that much respect to use.
 3. Go to the Learn You The Ruby website and read through the glossary.
 4. Type these in the Terminal:
     1. `rvm use 1.9.2@global`
-    2. `gem i thin rack rake rspec sequel sqlite3-ruby heroku`
+    2. `gem i thin rack rake rspec sequel sqlite3-ruby heroku delorean`
     4. `rvm use  1.9.2`
 5. Type these in the Terminal:
     1. `rvm gemset create web-development`
