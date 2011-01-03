@@ -17,7 +17,7 @@ Oh we also talk about your workstation.
 1. Open up terminal (Menu -> Accessories -> Terminal) and type the following:
     1. `sudo apt-get update && sudo apt-get upgrade` then type "yes" and hit enter.
     2. `sudo apt-get install build-essential bison autoconf g++ \ `
-    3. `zlib1g-dev libreadline-dev libsqlite3-dev \ `
+    3. `zlib1g-dev libreadline-dev libsqlite3-dev \\ `
     4. `libxslt-dev libxml2-dev libssl-dev \ `
     5. `curl git-core subversion` then type "yes" and hit enter.
     6. *Optionally* `sudo apt-get install gedit` if you need it.
