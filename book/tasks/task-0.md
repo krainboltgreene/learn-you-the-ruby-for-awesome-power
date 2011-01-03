@@ -81,8 +81,7 @@ Ruby, and other languages, are tools and tools require that much respect to use.
 4. Type these in the Terminal:
     1. `rvm use 1.9.2@global`
     2. `gem i thin rack rake rspec sequel sqlite3-ruby heroku`
-    3. `sudo apt-get install nginx` or `sudo apt-get install lighttpd`
-    4. `rvm 1.9.2@web-development`
+    4. `rvm use  1.9.2`
 5. Type these in the Terminal:
     1. `rvm gemset create web-development`
     2. `gem i haml thin nokogiri pony rack rake rdiscount rspec sequel sqlite3-rubyn sinatra rails nanoc --no-ri --no-rdoc`
