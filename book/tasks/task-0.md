@@ -14,26 +14,27 @@ Oh we also talk about your workstation.
 ### Source Code
 
 **Ubuntu**:
+
 1. Open up terminal (Menu -> Accessories -> Terminal) and type the following:
-    1. sudo apt-get update && sudo apt-get upgrade then type "yes" and hit enter.
-    2. sudo apt-get install build-essential bison autoconf g++ \ 
-    3. zlib1g-dev libreadline-dev libsqlite3-dev \ 
-    4. libxslt-dev libxml2-dev libssl-dev \ 
-    5. curl git-core subversion then type "yes" and hit enter.
-    6. *Optionally* sudo apt-get install gedit if you need it.
-    7. bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
-    8. source ~/.rvm/scripts/rvm && rvm install --default 1.9.2
+    1. `sudo apt-get update && sudo apt-get upgrade` then type "yes" and hit enter.
+    2. `sudo apt-get install build-essential bison autoconf g++ \ `
+    3. `zlib1g-dev libreadline-dev libsqlite3-dev \ `
+    4. `libxslt-dev libxml2-dev libssl-dev \ `
+    5. `curl git-core subversion` then type "yes" and hit enter.
+    6. *Optionally* `sudo apt-get install gedit` if you need it.
+    7. `bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )`
+    8. `source ~/.rvm/scripts/rvm && rvm install --default 1.9.2`
     9. Grab a coke and hamburger.
-    10. rvmsrc='[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"'
-    11. echo $rvmsrc >> ~/.bash_profile && echo $rvmsrc >> ~/.bashrc
-    12. printf "install: --no-ri --no-rdoc\nupdate: --no-ri --no-rdoc" >> ~/.gemrc
-    12. mkdir ~/repo ~/repo/rb ~/repo/rb/lytr && cd ~/repo/rb/lytr && gedit ~/.bashrc
-2. In .bashrc add a #  character in front of: [ -z "$PS1" ] && return if it's there.
+    10. `rvmsrc='[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"'`
+    11. `echo $rvmsrc >> ~/.bash_profile && echo $rvmsrc >> ~/.bashrc`
+    12. `printf "install: --no-ri --no-rdoc\nupdate: --no-ri --no-rdoc" >> ~/.gemrc`
+    12. `mkdir ~/repo ~/repo/rb ~/repo/rb/lytr && cd ~/repo/rb/lytr && gedit ~/.bashrc`
+2. In `.bashrc` add a `# ` character in front of: `[ -z "$PS1" ] && return` if it's there.
 3. In gedit, open the Edit menu and go to Preferences:
-    1. Turn on Highlight Cur... and Highlight Mat...
+    1. Turn on `Highlight Cur...` and `Highlight Mat...`
     2. Go to the Editor tab.
-    3. Tab Width change to 4. Turn On Insert Spaces Inst... and Enable Auto...
-4. Save and close gedit. Type exit in the Terminal.
+    3. `Tab Width` change to 4. Turn On `Insert Spaces Inst...` and `Enable Auto...`
+4. Save and close gedit. Type `exit` in the Terminal.
 5. Add the Terminal & Gedit shortcuts to the panel
 
 **Windows**:
@@ -81,10 +82,10 @@ Ruby, and other languages, are tools and tools require that much respect to use.
 2. Customize Gedit, Terminal, and your Operating System to better suit your style.
 3. Go to the Learn You The Ruby website and read through the glossary.
 4. Type these in the Terminal:
-    1. rvm use 1.9.2@global
-    2. gem i thin rack rake rspec sequel sqlite3-ruby heroku delorean
-    4. rvm use  1.9.2
+    1. `rvm use 1.9.2@global`
+    2. `gem i thin rack rake rspec sequel sqlite3-ruby heroku delorean`
+    4. `rvm use  1.9.2`
 5. Type these in the Terminal:
-    1. rvm --create 1.9.2@web-development
-    2. gem i haml rdiscount sinatra
-    3. sudo apt-get install nginx or sudo apt-get install lighttpd
+    1. `rvm --create 1.9.2@web-development`
+    2. `gem i haml rdiscount sinatra`
+    3. `sudo apt-get install nginx` or `sudo apt-get install lighttpd`
