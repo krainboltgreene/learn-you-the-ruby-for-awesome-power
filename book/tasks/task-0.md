@@ -16,9 +16,9 @@ Oh we also talk about your workstation.
 **Ubuntu**:
 1. Open up terminal (Menu -> Accessories -> Terminal) and type the following:
     1. `sudo apt-get update && sudo apt-get upgrade` then type "yes" and hit enter.
-    2. `sudo apt-get install build-essential bison autoconf g++ \`
-    3. `zlib1g-dev libreadline-dev libsqlite3-dev \`
-    4. `libxslt-dev libxml2-dev libssl-dev \`
+    2. `sudo apt-get install build-essential bison autoconf g++ \ `
+    3. `zlib1g-dev libreadline-dev libsqlite3-dev \ `
+    4. `libxslt-dev libxml2-dev libssl-dev \ `
     5. `curl git-core subversion` then type "yes" and hit enter.
     6. *Optionally* `sudo apt-get install gedit` if you need it.
     7. `bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )`
@@ -37,6 +37,7 @@ Oh we also talk about your workstation.
 5. Add the Terminal & Gedit shortcuts to the panel
 
 **Windows**:
+
 1. Open up your browser to this link: http://rubyforge.org/frs/download.php/72170/rubyinstaller-1.9.2-p0.exe
 2. Double click on the installer
 3. Agree to the terms and conditions
@@ -45,6 +46,7 @@ Oh we also talk about your workstation.
 6. You have Ruby! Yeah, I'm working on this.
 
 **Mac**:
+
 1. ...
 2. ...
 3. Buy Textmate.
@@ -83,7 +85,6 @@ Ruby, and other languages, are tools and tools require that much respect to use.
     2. `gem i thin rack rake rspec sequel sqlite3-ruby heroku delorean`
     4. `rvm use  1.9.2`
 5. Type these in the Terminal:
-    1. `rvm gemset create web-development`
-    2. `gem i haml thin nokogiri pony rack rake rdiscount rspec sequel sqlite3-rubyn sinatra rails nanoc --no-ri --no-rdoc`
+    1. `rvm --create 1.9.2@web-development`
+    2. `gem i haml rdiscount sinatra`
     3. `sudo apt-get install nginx` or `sudo apt-get install lighttpd`
-    4. `rvm 1.9.2@web-development`
