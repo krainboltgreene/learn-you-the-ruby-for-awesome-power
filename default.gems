@@ -1,5 +1,0 @@
-# default.gems generated gem export file. Note that any env variable settings will be missing. Append these after using a ';' field separator
-sinatra
-rdiscount
-haml
-highlight

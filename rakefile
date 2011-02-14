@@ -9,7 +9,7 @@ task :compile do
     tasks = Dir.glob("./book/tasks/*.md").sort
     chapters = Dir.glob("./book/chapters/*.md").sort
     destination = './web/views/'
-    
+
     for image in images
         puts 'Copying ' + image + ' to ./web/public/image/'
         system "cp #{image} ./web/public/image/"
@@ -18,12 +18,12 @@ task :compile do
         puts 'Copying ' + extra + ' to ' + destination
         system "cp #{extra} #{destination}"
     end
-    
+
     for chapter in chapters
         puts 'Putting ' + chapter + ' in ' + destination
         system "cp #{chapter} #{destination}"
     end
-    
+
     for task in tasks
         number = task.match(/\d/).to_s.to_i
         case number
