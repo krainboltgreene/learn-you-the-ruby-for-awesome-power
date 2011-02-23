@@ -1,8 +1,7 @@
 # Ready! Set! Hack.
 **Note: I adore notes.**
 
-[T0](id:section-one) \_why: I Need Ruby, Lots Of Ruby
---------------------------------------------------------------------------------
+## [T0](id:section-one) \_why: I Need Ruby, Lots Of Ruby
 
 \![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
 
@@ -44,12 +43,7 @@ Oh we also talk about your workstation.
 
 **Windows**:
 
-1. Open up your browser to this link: http://rubyforge.org/frs/download.php/72170/rubyinstaller-1.9.2-p0.exe
-2. Double click on the installer
-3. Agree to the terms and conditions
-4. Don't change the file path
-5. Magic happens
-6. You have Ruby! Yeah, I'm working on this.
+1. Magic Happens.
 
 **Mac**:
 
@@ -60,7 +54,8 @@ Oh we also talk about your workstation.
 5. Magic!
 
 **Extra**:
-1. **CentOS Notes**: bison autoconf gcc-c++ zlib-devel readline-devel sqlite-devel libxslt-devel libxml2-devel.
+
+s1. **CentOS Notes**: bison autoconf gcc-c++ zlib-devel readline-devel sqlite-devel libxslt-devel libxml2-devel.
 2. **BSD Notes**: bison autoconf gcc-c++ zlib-devel readline-devel sqlite-devel libxslt-devel libxml2-devel
 
 
@@ -105,12 +100,7 @@ You should by now know what a terminal is. If you don't remember, just go back t
 
 ### Source
 
-    #!/usr/bin/env ruby
-    # encoding: utf-8
-    # author: "Kurtis Rainbolt-Greene"
-    # created: 2010.09.14-19:21:17
-    
-    puts "A Boy And His Dog"
+    puts "A Boy And His Lucky Dog"
     puts "================="
     puts "It was a cold winter morning in the Forgotten Valley."
     puts 'The boy looked to his dog and said, "Look there, Lucky!"'
@@ -147,7 +137,6 @@ You may also notice that there is a space between `puts` and the first `"` or `'
 3. Add some extra lines to the story with extra puts methods.
 4. Change the `'` to `"` characters and run the code. What happens? Then revert to the original.
 5. Change the `puts` method to something else and run the code. What happens? Then revert to the original.
-
 ## [T-2](id:section-three) Print, Comments, and \\
 \![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
 
@@ -156,11 +145,6 @@ In this task we'll learn about the other output display method, method arguments
 
 ### Source
 
-    #!/usr/bin/env ruby
-    # encoding: utf-8
-    # author: "Kurtis Rainbolt-Greene"
-    # created: 2010.09.09 21:13:07
-    
     # This line is a comment. A comment is used to
     # document source code. This makes it easier to
     # read for others, and yourself.
@@ -206,20 +190,14 @@ The second special character you might have noticed is `\` character or _blacksl
 3. Delete line 24 and run the code. What happens? Then revert the changes.
 4. Insert `\n` characters into one of the strings wrapped with `"` characters and run the code. What happens? Then revert the changes.
 5. Insert `\n` characters into one of the strings wrapped with `'` characters and run the code. What happens? Then revert the changes.
-
-## [T-3](id:section-four) Numbers, Interpolation, and Boolean
+## [T-3](id:section-four) Numbers and Interpolation
 \![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
 
 ### Summary
-In this task we'll be learning about how Ruby handles numbers, math, and Boolean Operators. We'll also look into something called "Interpolation."
+In this task we'll be learning about how Ruby handles numbers, math, and something called "Interpolation." It's going to be a *blast*.
 
 ### Source
 
-    #!/usr/bin/env ruby
-    # encoding: utf-8
-    # author: "Kurtis Rainbolt-Greene"
-    # created: 2010.09.13-17:19:18
-    
     puts "Preparing For The Market And The Wasteland"
     puts "=========================================="
     puts "The boy looked over his belongings before entering the market."
@@ -229,14 +207,13 @@ In this task we'll be learning about how Ruby handles numbers, math, and Boolean
     puts "The lucky dog could smell the #{10 * 3 - 2 - 10} packets of salt."
     
     puts "The boy wondered how much ammo he could get from the merchant!"
+    
     # This next line shows a math equation.
     puts 4 + 2 * ( 100 % 2 ) / 4 + ( ( 4 + 2 ) * 4 )
     
-    # Now let's check out some Boolean Operators! Yay!
-    puts "Twenty eight whole bullets! The boy needs it to last ten days, at 2 per day."
-    puts "The boy and his lucky dog has enough, right? #{28 / 2 >= 10}"
-    puts "Does the boy have enough for twenty days? #{28 / 2 > 20}"
-    puts "What about less than 15 days? #{28 / 2 < 15}"
+    puts '"Well Lucky Dog, if we sell all this we can definitely stock up!"'
+    print "The Lucky Dog could only think of all (#{4 + 2 * ( 100 % 2 ) / 4 + ( ( 4 + 2 ) * 4 ) + 3} cans)"
+    puts " the Dog Food the Boy would surely buy."
 
 
 ### Results
@@ -244,16 +221,36 @@ In this task we'll be learning about how Ruby handles numbers, math, and Boolean
     > 
 
 ### Details
+In this Task we see a few unique things unencountered before.
+For instance the appearance of the strange `(` and `)` symbols, called **Parens** or **Parentheses**.
+The first `(` is called an **Open Paren**, and the second `)` is called **Close Paren**.
+You should also notice a few Mathematical Operators like `+ * / -`, but what's this?
+A strange new creature has entered the arena: `%`.
+This character is called a **Modulo**, and in computing the modulo finds the remainder of division.
 
+Ruby works magic, when you know how to feed it the right materials.
+For instance, if you feed Ruby `2 + 2` then Ruby spits out `4`.
+Ruby also understands that if you feed it `(3 + 4) * 2` the answer is **not** `11`, but `14`.
 
+> Ruby (and many other languages) spits out weird results if you don't understand the fine points.
+> For instance, `3 / 2` should come out to `1.5` and yet Ruby tells you `1`!
+> Why would Ruby lie?
+> Well this is because you gave Ruby two **Integers** rather than a **Float**.
+> If you feed Ruby `3 / 2.0`, `3.0 / 2`, or even `3.0 / 2.0` you get the correct `1.5`.
+> Another instance of Ruby giving strange results is when you try `3 / 0`.
+> Ruby knows this is bad, and tells you to stop trying to divide by zero!
 
-Like every good programming language Ruby understands basic Math easily. It knows that `2 + 2` is `4` and how PEMDAS works. Math is an important part of programming, but it's not required that you be a math genius. In fact most math programming you'll be doing will probably be the basic kind. With that said it's always good to know a few shortcuts! 
+You should also have noticed a second new thing in this Task source.
+Interpolation, a long and ungainly word, is the boon of many programmers.
+Simply put, Interpolation is stuffing Ruby code wrapped in `#{` and `}` into Strings.
+You might have picked up in the source how we've stuffed Math into that there set of Strings.
+You can stuff anything in Strings, including other Strings, and it will evaluate that code!
 
 #### Extra Credit
-1. 
-2. 
-3. 
-
+1. Add some more numbers to the equations.
+2. Remove the `#{` and `}` from line 7. What happens? Then revert to the original.
+3. Remove the math from line 15, change it to "31". What happens? Then revert to the original.
+4. Wrap the math on line 12 in Interpolation characters. What happens? Then revert to the original.
 ## [T-#](id:section-num) Title Here
 \![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
 
@@ -263,10 +260,7 @@ Words Here.
 
 ### Source
 
-    #!/usr/bin/env ruby
-    # encoding: utf-8
-    # author: "Kurtis Rainbolt-Greene"
-    # created:
+    
 
 
 ### Results

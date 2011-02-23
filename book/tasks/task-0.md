@@ -1,5 +1,4 @@
-[T0](id:section-one) \_why: I Need Ruby, Lots Of Ruby
---------------------------------------------------------------------------------
+## [T0](id:section-one) \_why: I Need Ruby, Lots Of Ruby
 
 \![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
 
@@ -39,12 +38,7 @@ Oh we also talk about your workstation.
 
 **Windows**:
 
-1. Open up your browser to this link: http://rubyforge.org/frs/download.php/72170/rubyinstaller-1.9.2-p0.exe
-2. Double click on the installer
-3. Agree to the terms and conditions
-4. Don't change the file path
-5. Magic happens
-6. You have Ruby! Yeah, I'm working on this.
+1. Magic Happens.
 
 **Mac**:
 
@@ -55,7 +49,8 @@ Oh we also talk about your workstation.
 5. Magic!
 
 **Extra**:
-1. **CentOS Notes**: bison autoconf gcc-c++ zlib-devel readline-devel sqlite-devel libxslt-devel libxml2-devel.
+
+s1. **CentOS Notes**: bison autoconf gcc-c++ zlib-devel readline-devel sqlite-devel libxslt-devel libxml2-devel.
 2. **BSD Notes**: bison autoconf gcc-c++ zlib-devel readline-devel sqlite-devel libxslt-devel libxml2-devel
 
 

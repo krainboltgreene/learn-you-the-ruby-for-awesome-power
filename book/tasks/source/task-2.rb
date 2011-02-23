@@ -1,8 +1,3 @@
-#!/usr/bin/env ruby
-# encoding: utf-8
-# author: "Kurtis Rainbolt-Greene"
-# created: 2010.09.09 21:13:07
-
 # This line is a comment. A comment is used to
 # document source code. This makes it easier to
 # read for others, and yourself.
