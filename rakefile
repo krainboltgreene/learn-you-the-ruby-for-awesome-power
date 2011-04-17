@@ -33,7 +33,7 @@ task :compile do
                 File.open chapter, 'a' do |file|
                     task_file = File.read(task)
                     task_source = File.read(sources[number]).strip
-                    task_source = task_source.gsub(/\n/,"\n    ") unless number == 0 #Simplabs::Highlight.highlight(:ruby, 
+                    task_source = task_source.gsub(/\n/,"\n    ") unless number == 0 #Simplabs::Highlight.highlight(:ruby,
                     task_file.gsub!(/### Source/,"### Source\n\n    " + task_source) unless sources[number].nil?
                     file.puts task_file + "\n"
                 end

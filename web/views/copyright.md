@@ -1,5 +1,4 @@
-
-Copyright
+COPYRIGHT
 =========
 
 [Learn You The Ruby For Awesome Power][0] by [Kurtis Rainbolt-Greene][1] is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License][2].

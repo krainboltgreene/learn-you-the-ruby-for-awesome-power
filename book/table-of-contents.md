@@ -1,5 +1,4 @@
-
-Table Of Contents
+TABLE OF CONTENTS
 =================
 
 1. [And Then There Was Ruby](/book/chapter/1)

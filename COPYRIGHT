@@ -3,6 +3,7 @@ Copyright(s)
 This work is split into two parts: Literature and Source Code. Each part has a
 different copyright license attached.
 
+
 Literature
 ----------
 Simplified:
@@ -11,10 +12,11 @@ Standard:
 > [Learn You The Ruby For Awesome Power][0] by [Kurtis Rainbolt-Greene][1] is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License][2].
 > Based on a work at [learnyoutheruby.com][3].
 
+
 Source Code
 -----------
 Simplified:
-    http://creativecommons.org/licenses/MIT/    
+    http://creativecommons.org/licenses/MIT/
 Standard:
 > Copyright (c) 2010 Kurtis Rainbolt-Greene
 

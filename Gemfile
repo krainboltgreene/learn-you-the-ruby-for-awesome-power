@@ -1,63 +1,27 @@
-source 'http://rubygems.org'
-
-gem 'highlight'
+source "http://rubygems.org"
 
 group :development do
-  # GEMS for Development Productivity:
-  ## Ruby Addons
-  gem 'i18n'
-  gem 'chronic'
-  gem 'bundler'
-  #gem 'thor'
-  #gem 'ore'
-  #gem 'nokogiri'
-  #gem 'hpricot'
-
-  ## IRB Addons
-  gem 'looksee'
-  gem 'wirble'
-  gem 'hirb'
-  gem 'awesome_print'
-  gem 'utility_belt'
+  gem "rake"
+  gem "bundler"
+  gem "heroku"
+  gem "i18n"
+  gem "wirble"
+  gem "awesome_print"
 end
 
-## Web Development
-#gem 'rails'
-gem 'sinatra'
-gem 'haml'
-#gem 'yui-compressor'
-#gem 'rails_best_practices'
-gem 'thin'
-gem 'rdiscount'
-
-## Database ORMs
-#gem 'sequel'
-#gem 'mongoid'
-#gem 'ohm'
-
-group :development do
-  ## Testing
-  gem 'rspec'
-  #gem 'rspec-rails'
-  gem 'cucumber'
-  #gem 'steak'
-  gem 'launchy'
-  gem 'delorean'
-
-  ## Deployment
-  #gem 'git'
-  #gem 'github'
-  #gem 'gist'
-  gem 'heroku'
-  #gem 'capistrano'
-  #gem 'capistrano_colors'
-
-  ## System Tools
-  #gem 'teamocil'
-  #gem 'tmuxinator'
-  #gem 'qwandry'
-  #gem 'tick'
-  #gem 'projmgr'
-  gem 'rocco'
-  gem 'rake'
+group :test do
+  gem "rspec"
+  gem "capybara"
+  gem "cucumber"
+  gem "factory_girl"
+  gem "launchy"
+  gem "rbtrace"
+  gem "ruby-debug19"
 end
+
+gem "sinatra"
+gem "thin"
+gem "haml"
+gem "rdiscount"
+gem "chronic"
+gem "highlight"
