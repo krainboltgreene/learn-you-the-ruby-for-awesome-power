@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+
+compile '/style/extra/*' do
+  # Nothing
+end
+
+compile '/style/*' do
+  filter :sass
+end
+
+compile '*' do
+  filter :rdiscount
+  layout 'default'
+end
+
+route '/style/extra/*' do
+  # Nothing
+end
+
+route '/style/main' do
+  '/style.css'
+end
+
+route '*' do
+  item.identifier + 'index.html'
+end
+
+layout '*', :haml

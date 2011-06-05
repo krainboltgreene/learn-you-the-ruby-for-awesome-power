@@ -1,0 +1,159 @@
+@import "mixins", "variables"
+html,body,div,span,object,iframe,hr,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,button,label,legend,input,textarea,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,hgroup,menu,nav,section,menu,time,mark,audio,video
+  margin: 0
+  padding: 0
+  border: 0 none
+  outline: 0
+  outline-offset: 0
+  font-size: inherit
+  text-decoration: none
+  vertical-align: baseline
+  background: transparent
+  color: inherit
+article,aside,figure,footer,header,hgroup,nav,section,hr
+  display: block
+body
+  line-height: 1
+ol,ul,nav
+  list-style: none
+blockquote,q
+  quotes: none
+  &:before,&:after
+    content: ''
+    content: none
+del
+  text-decoration: line-through
+ins,mark
+  background-color: #ff9
+  color: #000
+ins
+  text-decoration: none
+mark
+  font-style: italic
+  font-weight: bold
+table
+  border-collapse: collapse
+  border-spacing: 0
+hr
+  height: 1px
+  border-top: 1px solid #ccc
+  margin: 1em 0
+abbr[title],dfn[title]
+  border-bottom: 1px dotted #000
+  cursor: help
+input,select
+  vertical-align: middle
+\:focus
+  outline: 0
+html
+  overflow-y: scroll
+body
+  width: 100%
+  background: #fff
+  color: #000
+  @include sans-serif-font
+  font-size: $font_size
+  -webkit-font-smoothing: antialiased
+  text-rendering: optimizeLegibility
+h1, h2, h3, h4, h5, h6
+  @include outline
+  text-rendering: optimizeLegibility
+h1, h2, h6
+  @include sans-serif-font('Nobile')
+  font-weight: bold
+h3, h4, h5
+  font-weight: normal
+h1
+  font-size: $font_size * 6
+h2
+  font-size: $font_size * 5
+h3
+  font-size: $font_size * 4
+h4
+  font-size: $font_size * 3
+h5
+  font-size: $font_size * 2
+h6
+  font-size: $font_size * 1.5
+p, ol, ul, pre
+  @include outline
+  line-height: 1.75
+blockquote
+  @include outline
+  padding-left: 4.5em
+  & p
+    @include outline
+    @include serif-font('Merriweather')
+    font-size: 1.2em
+    font-style: italic
+    & cite
+      font-size: .75em
+      text-decoration: underline
+p
+  @include serif-font
+  font-size: $font_size * 1.6
+  text-align: left
+pre, code
+  white-space: pre
+  white-space: pre-wrap
+  white-space: pre-line
+  word-wrap: break-word
+  @include monospace-font
+ul, ol
+  font-size: $font_size * 1.6
+  & li
+    @include margin-y(1em)
+    @include margin-x(1.75em)
+  & ul, & ol
+    @include margin-y(0)
+    @include margin-x(1.75em)
+ul
+  list-style: disc inside
+ol
+  list-style: decimal inside
+hr
+  height: .25px
+  @include center
+  border: 1px dotted rgba(25,25,25,.75)
+a
+  color: $link_color
+  text-decoration: none
+  &:hover
+    color: $link_color - 100
+    boder-bottom: 1px dotted
+  &:active
+    color: #607890
+    outline: none
+  &:focus
+    outline: thin dotted
+  &:link
+    -webkit-tap-highlight-color: #FF5E99
+sub,sup
+  font-size: 10px
+sub
+  vertical-align: sub
+sup
+  vertical-align: super
+form
+  & label
+    @include outline
+    @include sans-serif-font
+    font-size: $font_size * 1.8
+    font-weight: bold
+    line-height: 1.75
+  & select
+    @include sans-serif-font
+    color: $text_color
+    font-size: $font_size * 1.8
+  & input, & textarea
+    border: 1px solid $black
+    width: auto
+    @include outline
+    @include sans-serif-font
+    color: $text_color
+    font-size: $font_size * 1.4
+    &[type=text], &[type=email], &[type=password]
+      background: $white
+  & textarea
+    height: 25px
+    background: $white
