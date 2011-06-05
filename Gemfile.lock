@@ -20,7 +20,7 @@ GEM
     configuration (1.2.0)
     cri (1.0.1)
     culerity (0.2.15)
-    delorean (1.0.0)
+    delorean (1.0.1)
       chronic
     diff-lcs (1.1.2)
     ffi (1.0.9)
@@ -89,14 +89,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  capybara (= 0.4.1.2)
-  delorean (= 1.0.0)
+  capybara (~> 0.4.1.2)
+  delorean (~> 1.0.0)
   haml (~> 3.1.1)
-  heroku (= 2.1.4)
+  heroku (~> 2.1.4)
   highlight (~> 1.1.2)
   nanoc (~> 3.1.7)
-  rbtrace (= 0.3.13)
+  rbtrace (~> 0.3.13)
   rdiscount (~> 1.6.8)
-  rspec (= 2.6.0)
-  ruby-debug19 (= 0.11.6)
+  rspec (~> 2.6.0)
+  ruby-debug19 (~> 0.11.6)
   sass (~> 3.1.1)

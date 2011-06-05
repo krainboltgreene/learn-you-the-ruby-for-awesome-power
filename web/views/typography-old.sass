@@ -1,0 +1,59 @@
+// Element Styles
+body
+    background: rgb(145,0,0)
+    & #container
+        background: #111
+        width: 960px
+        @include outline
+        @include center
+        @include round
+        @include shadow(box)
+
+h1,h2,h3,p,ul,ol,pre,img
+    width: 860px
+    @include outline
+    @include center
+    line-height: 1.5
+    & li
+        margin-left: 25px
+h1,h2
+    background: #fff
+    width: 1024px
+    margin-left: -38px
+    margin-top: 50px
+    @include round
+    text-align: center
+h3,h4
+    width: 760px
+    @include center
+p,ul,ol
+    color: #888
+    &#copyright
+        @include outline
+        @include center
+        font-size: 10px
+        text-align: center
+blockquote
+    width: 840px
+    @include outline
+    @include center
+    background: #222
+    border-left: solid 5px #333
+    & p
+        width: 760px
+        padding-left: 15px
+
+img
+    width: auto
+code
+    @include outline(1px)
+a
+    color: #6666CC
+    @include fade-out
+    text-decoration: none
+// ID Styles
+.gist
+    width: 700px
+    @include outline
+    @include center
+    font-size: 14px

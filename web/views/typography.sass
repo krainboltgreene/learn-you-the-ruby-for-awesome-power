@@ -1,0 +1,62 @@
+// Base Styles
+body
+    color: $text_color
+    background: $background_color
+a
+    color: $link_color
+    text-decoration: none
+    @include fade-out
+// Header Styles
+#header
+    width: 800px
+    @include outline
+    @include center
+    & h1
+        &#title
+            position: absolute
+            top: 15px
+            left: 0px
+            @include serif-font('Geo')
+            font-size: 105px
+            color: rgba(230,15,15,.85)
+            @include text-shadow
+    & img
+        &#logo
+            width: 800px
+            @include outline
+            @include center
+            text-align: center
+// Content Styles
+#content
+    width: 100%
+    @include outline
+    @include round
+    @include shadow
+    background: rgba(120,120,120,1)
+    & h1
+        & a
+            @include outline
+            @include sans-serif-font('Raleway')
+            color: rgba(250,220,45,.85)
+            @include text-shadow
+            text-align: center
+    & p
+        width: 500px
+        @include outline
+        line-height: 1.5
+    & #chrome, #firefox, #opera
+        @include outline(10px)
+// Footer Styles
+#footer
+    width: 1024px
+    @include center
+    margin-top: 150px
+    background: rgba(25,25,25,1)
+    & #copyright
+        @include monospace-font
+        font-size: 10px
+        text-align: center
+    & #contact
+        @include monospace-font
+        font-size: 10px
+        text-align: center
