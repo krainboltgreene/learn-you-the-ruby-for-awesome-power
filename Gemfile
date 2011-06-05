@@ -4,8 +4,8 @@ gem 'nanoc', '~> 3.1.7'
 
 gem 'haml', '~> 3.1.1'
 gem 'sass', '~> 3.1.1'
-gem 'rdiscount', '~> 1.6.8'
-gem 'highlight', '~> 1.1.2', :require => 'simplabs/highlight'
+gem 'redcarpet', '~> 1.15.2'
+gem 'coderay', '~> 0.9.8'
 
 gem 'heroku', '~> 2.1.4'
 

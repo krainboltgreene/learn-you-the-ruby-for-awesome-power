@@ -3,7 +3,7 @@ And Then There Was Ruby
 
 **Note: If you want to get straight to hacking start at [Chapter 2: Ready! Set! Hack](/chapter/2).**
 
-[HCP: Hackers, Code, and Programming](id:section-one)
+HCP: Hackers, Code, and Programming
 -----------------------------------------------------
 
 > The computer programmer is a creator of universes for which he alone is responsible.
@@ -41,7 +41,7 @@ A computer only knows how and when to do things if you tell it to in it's own la
 
 ### Binary's Count 1 To 10, Print Sum
 
-
+~~~ { language-binary }
     00110001 00000000 00000000
     00110001 00000001 00000001
     00110011 00000001 00000010
@@ -51,6 +51,7 @@ A computer only knows how and when to do things if you tell it to in it's own la
     01000001 00000001 00000001
     00010000 00000010 00000000
     01100010 00000000 00000000
+~~~
 
 This program tells the computer to take every number from 1 to 10, add them together, and display the sum (55).
 It's complex, arcane, and completely unreadable to the naked eye for most people.
@@ -60,11 +61,21 @@ The same code is written here in Ruby:
 
 ### Ruby's Count 1 To 10, Print Sum
 
-<script src="http://gist.github.com/654757.js?file=count-to-ten.rb"></script>
+``` ruby
+    total = 0
+    count = 1
+
+    while count <= 10
+      total += count
+      count += 1
+    end
+```
 
 Or even:
 
-<script src="http://gist.github.com/654757.js?file=alt-count-to-ten.rb"></script>
+``` ruby
+    print (1..10).sum
+```
 
 ![Awesome Placeholder Image](http://dummyimage.com/300/00/44.png&text=Awesome%20Placeholder "So awesome.")
 
@@ -74,18 +85,26 @@ The next two examples are exactly the same, first in Java a really powerful and 
 
 ### Java's "Hello, World"
 
-<script src="http://gist.github.com/654757.js?file=hello-world.java"></script>
+``` java
+    public class HelloWorld {
+        public static void main(String[] args) {
+            System.out.println("Hello, World");
+        }
+    }
+```
 
 ### Ruby's "Hello, World"
 
-<script src="http://gist.github.com/654757.js?file=hello-world.rb"></script>
+``` ruby
+    print 'Hello, World'
+```
 
 Meanwhile, _Code_ is a language agnostic term for the source code that we write.
 Further, source code is is any collection of statements or declarations written in some human-readable computer programming language.
 The above examples I've listed are exactly that: Code.
 
 
-[def ruby](id:section-two)
+def ruby
 --------------------------
 
 > A dynamic, open source programming language with a focus on simplicity and productivity.

@@ -9,7 +9,7 @@ compile '/style/*' do
 end
 
 compile '*' do
-  filter :rdiscount, { :autolink => true, :smart => true }
+  filter :redcarpet
   filter :colorize_syntax
   layout 'default'
 end

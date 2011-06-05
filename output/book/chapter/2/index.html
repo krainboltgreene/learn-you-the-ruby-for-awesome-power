@@ -4,7 +4,7 @@
 <title></title>
 <meta charset='utf-8' />
 <meta content='en' name='language' />
-<meta content='2011-06-05 02:26:04 -0700' name='created' />
+<meta content='2011-06-05 06:59:26 -0700' name='created' />
 <meta content='Kurtis Rainbolt-Greene' name='author' />
 <meta content='A Book On How To Program With The Ruby Language' name='description' />
 <meta content='ruby, programming, hacking, learning, tutorial, book, free' name='keywords' />
@@ -19,9 +19,150 @@
 <h1></h1>
 </header>
 <article>
-<h1>Ready! Set! Hack.</h1>
+<h1 id="toc_0">Ready! Set! Hack.</h1>
 
 <p><strong>Note: I adore notes.</strong></p>
+
+<h2 id="toc_1"><a href="id:section-one">T0</a> Installing Ruby</h2>
+
+<p><img src="http://dummyimage.com/300/00/44.png&amp;text=Awesome%20Placeholder" alt="Awesome Placeholder Image" title="So awesome.">
+</p>
+
+<h3 id="toc_2">Summary</h3>
+
+<p>This is the most important Task in the entire book.
+This task will detail each step required to get Ruby running on your computer.
+Without Ruby you can&rsquo;t run the code you build and that makes this entire thing worthless.
+Oh we also talk about your workstation.</p>
+
+<h3 id="toc_3">Source Code</h3>
+
+<h4 id="toc_4">Ubuntu</h4>
+
+<ol>
+<li>Open up Terminal:
+
+<ol>
+<li>Click on the magnifying glass in the top right of your screen.</li>
+<li>Type <code>Terminal</code> and press enter.</li>
+<li>Type in the parts that look like <code>this</code> into Terminal and press enter.</li>
+</ol></li>
+<li>Install dependencies:
+
+<ol>
+<li><code>sudo apt-get install build-essential bison autoconf g++ \</code></li>
+<li><code>zlib1g-dev libreadline-dev libsqlite3-dev \</code></li>
+<li><code>libxslt-dev libxml2-dev libssl-dev \</code></li>
+<li><code>curl git-core subversion</code> then <code>yes</code>.</li>
+</ol></li>
+<li>Install Ruby &amp; Friends
+
+<ol>
+<li><code>bash &lt; &lt;( curl http://rvm.beginrescueend.com/releases/rvm-install-head )</code></li>
+<li><code>source ~/.rvm/scripts/rvm &amp;&amp; rvm install &mdash;default 1.9.2</code></li>
+</ol></li>
+<li>Setup your environment:
+
+<ol>
+<li><code>mkdir ~/repo ~/repo/rb ~/repo/rb/lytr &amp;&amp; cd ~/repo/rb/lytr</code></li>
+<li><code>rvmsrc=&lsquo;[[ -s &ldquo;~/.rvm/scripts/rvm&rdquo; ]]&rsquo; &amp;&amp; echo $rvmsrc &gt;&gt; ~/.bash_profile &amp;&amp; echo $rvmsrc &gt;&gt; ~/.bashrc</code></li>
+<li><code>curl https://github.com/krainboltgreene/dotfiles/blob/master/gemrc -o ~/.gemrc &amp;&amp; gedit ~/.bashrc</code></li>
+<li>In gedit add <code>#</code> in front (On the same line) as: <code>[ -z &ldquo;$PS1&rdquo; ] &amp;&amp; return</code> if it&rsquo;s there.</li>
+</ol></li>
+<li>Make yourself comfortable in Gedit:
+
+<ol>
+<li>Turn on <code>Highlight Cur&hellip;</code> and <code>Highlight Mat&hellip;</code></li>
+<li>Go to the Editor tab.</li>
+<li><code>Tab Width</code> change to 4. Turn On <code>Insert Spaces Inst&hellip;</code> and <code>Enable Auto&hellip;</code></li>
+</ol></li>
+<li>Save and close gedit. Type <code>exit</code> in the Terminal.</li>
+<li>Add the Terminal &amp; Gedit shortcuts to the panel</li>
+</ol>
+
+<h4 id="toc_5">Windows</h4>
+
+<ol>
+<li>Magic Happens.</li>
+</ol>
+
+<h4 id="toc_6">Mac OS X</h4>
+
+<ol>
+<li>Open up Terminal:
+
+<ol>
+<li>Click on the magnifying glass in the top right of your screen.</li>
+<li>Type <code>Terminal</code> and press enter.</li>
+<li>Type in the parts that look like <code>this</code> into Terminal.</li>
+</ol></li>
+<li>Install brew:
+
+<ol>
+<li><code>ruby -e &ldquo;$(curl -fsSLk https://gist.github.com/raw/323731/install_homebrew.rb)&rdquo;</code></li>
+<li><code>open https://connect.apple.com/cgi-bin/WebObjects/MemberSite.woa/wa/getSoftware?bundleID=20792</code></li>
+<li>Login and install XCode.</li>
+</ol></li>
+<li>Install Ruby &amp; Friends:
+
+<ol>
+<li><code>brew install curl git</code></li>
+<li><code>bash &lt; &lt;( curl http://rvm.beginrescueend.com/releases/rvm-install-head )</code></li>
+</ol></li>
+<li>Setup your environment:
+
+<ol>
+<li><code>mkdir ~/repo ~/repo/rb ~/repo/rb/lytr &amp;&amp; cd ~/repo/rb/lytr</code></li>
+<li><code>source ~/.rvm/scripts/rvm &amp;&amp; rvm install &mdash;default 1.9.2</code></li>
+<li><code>rvmsrc=&lsquo;[[ -s &ldquo;$HOME/.rvm/scripts/rvm&rdquo; ]] &amp;&amp; echo $rvmsrc &gt;&gt; ~/.bash_profile &amp;&amp; echo $rvmsrc &gt;&gt; ~/.bashrc</code></li>
+<li><code>curl https://github.com/krainboltgreene/dotfiles/blob/master/gemrc -o ~/.gemrc &amp;&amp; open ~/.bashrc</code></li>
+<li>In gedit add <code>#</code> in front (On the same line) as: <code>[ -z &ldquo;$PS1&rdquo; ] &amp;&amp; return</code> if it&rsquo;s there.</li>
+</ol></li>
+<li>Install and setup GEdit:
+
+<ol>
+<li>&hellip;</li>
+<li>&hellip;</li>
+<li>&hellip;</li>
+<li>In gedit, open the Edit menu and go to Preferences.</li>
+<li>Turn on <code>Highlight Cur&hellip;</code> and <code>Highlight Mat&hellip;</code></li>
+<li>Go to the Editor tab.</li>
+<li><code>Tab Width</code> change to 4. Turn On <code>Insert Spaces Inst&hellip;</code> and <code>Enable Auto&hellip;</code></li>
+<li>Save and close gedit. Type <code>exit</code> in the Terminal.</li>
+<li>Add the Terminal &amp; Gedit shortcuts to the dock</li>
+</ol></li>
+</ol>
+
+<h3 id="toc_7">Results</h3>
+
+<p>You should have working instances of Ruby Version Manager, Ruby 1.9.2, and Gedit.
+With a interpeter, an editor, and a computer you&rsquo;re well on your way to becoming a developer!
+If you happened to encoutner an error simply go to http://gist.github.com.
+Paste the error message (if you can) along with the step you were on.
+Then create a new issue at <a href="http://github.com/krainboltgreene/learn-you-the-ruby-for-awesome-power/issues">my issues page</a> with the link to Gist.</p>
+
+<h3 id="toc_8">Task Details</h3>
+
+<p>The steps above assume one thing: You know the very basics about using your computer.
+If you don&rsquo;t understand how your computer works you need to take some classes, explore, and learn.
+Don&rsquo;t go beyond this point until you do.
+Ruby, and other languages, are tools and tools require that much respect to use.</p>
+
+<h3 id="toc_9">Extra Credit</h3>
+
+<ol>
+<li>Open a few text files with gedit and get to know the interface.</li>
+<li>Customize Gedit, Terminal, and your Operating System to better suit your style.</li>
+<li>Go to the Learn You The Ruby website and read through the glossary.</li>
+<li>Type these in the Terminal:
+
+<ol>
+<li><code>rvm use 1.9.2@global</code></li>
+<li><code>gem install bundler heroku rake rack</code></li>
+<li><code>rvm use 1.9.2</code></li>
+</ol></li>
+</ol>
+
 </article>
 <footer>
 <p>Copyright 2011 <a href="mailto:kurtisrainboltgreene@gmail.com">Kurtis Rainbolt-Greene</a></p>

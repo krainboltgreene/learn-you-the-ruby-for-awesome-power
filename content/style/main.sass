@@ -1,1 +1,15 @@
 @import "extra/mixins", "extra/variables", "extra/reset"
+pre
+  width: 400px
+  @include outline
+  @include center
+  @include round
+  @include in-shadow
+  background: $grey + 45
+  & code.language-ruby
+    @include outline
+    margin-top: -15px
+    @include center
+    font-size: 14px
+    & .i
+      color: $bright_theme_color
