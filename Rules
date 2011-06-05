@@ -5,11 +5,12 @@ compile '/style/extra/*' do
 end
 
 compile '/style/*' do
-  filter :sass
+  filter :sass, { :style => :compressed }
 end
 
 compile '*' do
-  filter :rdiscount
+  filter :rdiscount, { :autolink => true, :smart => true }
+  filter :colorize_syntax
   layout 'default'
 end
 
@@ -25,4 +26,4 @@ route '*' do
   item.identifier + 'index.html'
 end
 
-layout '*', :haml
+layout '*', :haml, {:ugly => true}

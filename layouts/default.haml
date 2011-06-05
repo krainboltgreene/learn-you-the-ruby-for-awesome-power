@@ -12,10 +12,11 @@
     %meta{ name: 'viewport', content: 'width=device-width, initial-scale=1.0' }/
     %link{ href: '/image/icon/favicon.png', rel: 'shortcut icon', type: 'image/png' }/
     %link{ href: '/style.css', rel: 'stylesheet', type: 'text/css' }
+    %script{ src: '/script.js', rel: 'javascript', type: 'text/javascript' }
 
   %body
     %header
-      %h1 = @item[:title]
+      %h1= @item[:title]
 
     %article
       = yield
@@ -23,7 +24,7 @@
     %footer
       %p Copyright 2011 <a href="mailto:kurtisrainboltgreene@gmail.com">Kurtis Rainbolt-Greene</a>
 
-    %script{type: 'text/javascript'}
+    %script{ type: 'text/javascript' }
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA--1']);
       _gaq.push(['_trackPageview']);
