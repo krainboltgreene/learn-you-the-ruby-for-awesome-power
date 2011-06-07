@@ -10,7 +10,7 @@ end
 
 compile '*' do
   filter :redcarpet
-  filter :colorize_syntax
+  filter :colorize_syntax, :coderay => { :line_numbers => :inline }
   layout 'default'
 end
 

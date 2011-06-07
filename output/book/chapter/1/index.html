@@ -4,7 +4,7 @@
 <title></title>
 <meta charset='utf-8' />
 <meta content='en' name='language' />
-<meta content='2011-06-05 07:13:35 -0700' name='created' />
+<meta content='2011-06-05 07:25:53 -0700' name='created' />
 <meta content='Kurtis Rainbolt-Greene' name='author' />
 <meta content='A Book On How To Program With The Ruby Language' name='description' />
 <meta content='ruby, programming, hacking, learning, tutorial, book, free' name='keywords' />
@@ -61,15 +61,15 @@ A computer only knows how and when to do things if you tell it to in it’s own 
 
 <h3 id="toc_3">Binary’s Count 1 To 10, Print Sum</h3>
 
-<pre><code class="binary">    00110001 00000000 00000000
-    00110001 00000001 00000001
-    00110011 00000001 00000010
-    01010001 00001011 00000010
-    00100010 00000010 00001000
-    01000011 00000001 00000000
-    01000001 00000001 00000001
-    00010000 00000010 00000000
-    01100010 00000000 00000000
+<pre><code class="language-binary"><span class="no"> 1</span>     00110001 00000000 00000000
+<span class="no"> 2</span>     00110001 00000001 00000001
+<span class="no"> 3</span>     00110011 00000001 00000010
+<span class="no"> 4</span>     01010001 00001011 00000010
+<span class="no"> 5</span>     00100010 00000010 00001000
+<span class="no"> 6</span>     01000011 00000001 00000000
+<span class="no"> 7</span>     01000001 00000001 00000001
+<span class="no"> 8</span>     00010000 00000010 00000000
+<span class="no"> 9</span>     01100010 00000000 00000000
 </code></pre>
 
 <p>This program tells the computer to take every number from 1 to 10, add them together, and display the sum (55).
@@ -80,13 +80,13 @@ The same code is written here in Ruby:</p>
 
 <h3 id="toc_4">Ruby’s Count 1 To 10, Print Sum</h3>
 
-<pre><code class="ruby">    total = 0
-    count = 1
-
-    while count &lt;= 10
-      total += count
-      count += 1
-    end
+<pre><code class="language-ruby"><span class="no">1</span>     total = <span class="i">0</span>
+<span class="no">2</span>     count = <span class="i">1</span>
+<span class="no">3</span> 
+<span class="no">4</span>     <span class="r">while</span> count &lt;= <span class="i">10</span>
+<span class="no">5</span>       total += count
+<span class="no">6</span>       count += <span class="i">1</span>
+<span class="no">7</span>     <span class="r">end</span>
 </code></pre>
 
 <p>Or even:</p>

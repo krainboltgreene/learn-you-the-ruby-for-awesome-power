@@ -41,7 +41,7 @@ A computer only knows how and when to do things if you tell it to in it's own la
 
 ### Binary's Count 1 To 10, Print Sum
 
-~~~ { language-binary }
+``` language-binary
     00110001 00000000 00000000
     00110001 00000001 00000001
     00110011 00000001 00000010
@@ -51,7 +51,7 @@ A computer only knows how and when to do things if you tell it to in it's own la
     01000001 00000001 00000001
     00010000 00000010 00000000
     01100010 00000000 00000000
-~~~
+```
 
 This program tells the computer to take every number from 1 to 10, add them together, and display the sum (55).
 It's complex, arcane, and completely unreadable to the naked eye for most people.
@@ -61,7 +61,7 @@ The same code is written here in Ruby:
 
 ### Ruby's Count 1 To 10, Print Sum
 
-``` ruby
+``` language-ruby
     total = 0
     count = 1
 
