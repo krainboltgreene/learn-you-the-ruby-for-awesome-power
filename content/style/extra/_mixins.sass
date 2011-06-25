@@ -1,31 +1,31 @@
-@mixin center
+=center
   display: block
-  @include margin-x(auto)
+  +margin-x(auto)
 
 $outline_width: 5px
-@mixin outline($o: $outline_width)
-  @include margin($o)
-  @include padding($o)
+=outline($o: $outline_width)
+  +margin($o)
+  +padding($o)
 
 $margin_width: 5px
-@mixin margin($m: $margin_width)
-  @include margin-x($m)
-  @include margin-y($m)
-@mixin margin-x($m: $margin_width)
+=margin($m: $margin_width)
+  +margin-x($m)
+  +margin-y($m)
+=margin-x($m: $margin_width)
   margin-left: $m
   margin-right: $m
-@mixin margin-y($m: $margin_width)
+=margin-y($m: $margin_width)
   margin-top: $m
   margin-bottom: $m
 
 $padding_width: 5px
-@mixin padding($p: $padding_width)
-  @include padding-x($p)
-  @include padding-y($p)
-@mixin padding-x($p: $padding_width)
+=padding($p: $padding_width)
+  +padding-x($p)
+  +padding-y($p)
+=padding-x($p: $padding_width)
   padding-left: $p
   padding-right: $p
-@mixin padding-y($p: $padding_width)
+=padding-y($p: $padding_width)
   padding-top: $p
   padding-bottom: $p
 
@@ -33,85 +33,85 @@ $padding_width: 5px
 $width: 1px
 $style: solid
 $color: rgba(0,0,0,1)
-@mixin thick-border($c: $color)
-  @include border(2px, solid, $c)
-@mixin border($w: $width, $s: $style, $c: $color)
-  @include border-north-east($w, $s, $c)
-  @include border-south-west($w, $s, $c)
+=thick-border($c: $color)
+  +border(2px, solid, $c)
+=border($w: $width, $s: $style, $c: $color)
+  +border-north-east($w, $s, $c)
+  +border-south-west($w, $s, $c)
 
-@mixin border-north-west($w: $width, $s: $style, $c: $color)
-  @include border-north($w, $s, $c)
-  @include border-west($w, $s, $c)
-@mixin border-north-east($w: $width, $s: $style, $c: $color)
-  @include border-north($w, $s, $c)
-  @include border-east($w, $s, $c)
-@mixin border-south-west($w: $width, $s: $style, $c: $color)
-  @include border-south($w, $s, $c)
-  @include border-west($w, $s, $c)
-@mixin border-south-east($w: $width, $s: $style, $c: $color)
-  @include border-south($w, $s, $c)
-  @include border-east($w, $s, $c)
+=border-north-west($w: $width, $s: $style, $c: $color)
+  +border-north($w, $s, $c)
+  +border-west($w, $s, $c)
+=border-north-east($w: $width, $s: $style, $c: $color)
+  +border-north($w, $s, $c)
+  +border-east($w, $s, $c)
+=border-south-west($w: $width, $s: $style, $c: $color)
+  +border-south($w, $s, $c)
+  +border-west($w, $s, $c)
+=border-south-east($w: $width, $s: $style, $c: $color)
+  +border-south($w, $s, $c)
+  +border-east($w, $s, $c)
 
-@mixin border-north($w: $width, $s: $style, $c: $color)
+=border-north($w: $width, $s: $style, $c: $color)
   border-top-width: $w
   border-top-style: $s
   border-top-color: $c
-@mixin border-south($w: $width, $s: $style, $c: $color)
+=border-south($w: $width, $s: $style, $c: $color)
   border-bottom-width: $w
   border-bottom-style: $s
   border-bottom-color: $c
-@mixin border-west($w: $width, $s: $style, $c: $color)
+=border-west($w: $width, $s: $style, $c: $color)
   border-left-width: $w
   border-left-style: $s
   border-left-color: $c
-@mixin border-east($w: $width, $s: $style, $c: $color)
+=border-east($w: $width, $s: $style, $c: $color)
   border-right-width: $w
   border-right-style: $s
   border-right-color: $c
 
 $horizontal: 3px
 $vertical: 3px
-@mixin round($h: $horizontal, $v: $vertical)
-  @include round-top($h, $v)
-  @include round-bottom($h, $v)
-@mixin round-top($h: $horizontal, $v: $vertical)
-  @include round-top-left($h, $v)
-  @include round-top-right($h, $v)
-@mixin round-bottom($h: $horizontal, $v: $vertical)
-  @include round-bottom-left($h, $v)
-  @include round-bottom-right($h, $v)
-@mixin round-left($h: $horizontal, $v: $vertical)
-  @include round-top-left($h, $v)
-  @include round-bottom-left($h, $v)
-@mixin round-right($h: $horizontal, $v: $vertical)
-  @include round-top-right($h, $v)
-  @include round-bottom-right($h, $v)
-@mixin round-top-left($h: $horizontal, $v: $vertical)
+=round($h: $horizontal, $v: $vertical)
+  +round-top($h, $v)
+  +round-bottom($h, $v)
+=round-top($h: $horizontal, $v: $vertical)
+  +round-top-left($h, $v)
+  +round-top-right($h, $v)
+=round-bottom($h: $horizontal, $v: $vertical)
+  +round-bottom-left($h, $v)
+  +round-bottom-right($h, $v)
+=round-left($h: $horizontal, $v: $vertical)
+  +round-top-left($h, $v)
+  +round-bottom-left($h, $v)
+=round-right($h: $horizontal, $v: $vertical)
+  +round-top-right($h, $v)
+  +round-bottom-right($h, $v)
+=round-top-left($h: $horizontal, $v: $vertical)
   $value: $h $v
   -moz-border-radius-topleft: $value
   -webkit-border-top-left-radius: $value
   -o-border-top-left-radius: $value
   border-top-left-radius: $value
-@mixin round-top-right($h: $horizontal, $v: $vertical)
+=round-top-right($h: $horizontal, $v: $vertical)
   $value: $h $v
   -moz-border-radius-topright: $value
   -webkit-border-top-right-radius: $value
   -o-border-top-right-radius: $value
   border-top-right-radius: $value
-@mixin round-bottom-left($h: $horizontal, $v: $vertical)
+=round-bottom-left($h: $horizontal, $v: $vertical)
   $value: $h $v
   -moz-border-radius-bottomleft: $value
   -webkit-border-bottom-left-radius: $value
   -o-border-bottom-left-radius: $value
   border-bottom-left-radius: $value
-@mixin round-bottom-right($h: $horizontal, $v: $vertical)
+=round-bottom-right($h: $horizontal, $v: $vertical)
   $value: $h $v
   -moz-border-radius-bottomright: $value
   -webkit-border-bottom-right-radius: $value
   -o-border-bottom-right-radius: $value
   border-bottom-right-radius: $value
 
-@mixin column($columns, $gap: 5px)
+=column($columns, $gap: 5px)
   -moz-column-count: $columns
   -webkit-column-count: $columns
   -o-column-count: $columns
@@ -126,7 +126,7 @@ $vertical_offset: 2px
 $blur_radius: 2px
 $spread_radius: 1px
 $shadow_color: rgba( 10, 10, 10, .35)
-@mixin shadow($h: $horizontal_offset, $v: $vertical_offset, $c: $shadow_color, $b: $blur_radius, $s: $spread_radius)
+=shadow($h: $horizontal_offset, $v: $vertical_offset, $c: $shadow_color, $b: $blur_radius, $s: $spread_radius)
   $value: $h $v $b $s $c
   -moz-box-shadow: $value
   -webkit-box-shadow: $value
@@ -138,7 +138,7 @@ $vertical_offset: 2px
 $blur_radius: 3px
 $spread_radius: 1px
 $shadow_color: rgba( 10, 10, 10, .45)
-@mixin in-shadow($h: $horizontal_offset, $v: $vertical_offset, $c: $shadow_color, $b: $blur_radius, $s: $spread_radius)
+=in-shadow($h: $horizontal_offset, $v: $vertical_offset, $c: $shadow_color, $b: $blur_radius, $s: $spread_radius)
   $value: $h $v $b $s $c inset
   -moz-box-shadow: $value
   -webkit-box-shadow: $value
@@ -149,14 +149,14 @@ $horizontal_offset: 1px
 $vertical_offset: 1px
 $blur_radius: 2px
 $shadow_color: rgba( 10, 10, 10, .45)
-@mixin text-shadow($h: $horizontal_offset, $v: $vertical_offset, $c: $shadow_color, $b: $blur_radius)
+=text-shadow($h: $horizontal_offset, $v: $vertical_offset, $c: $shadow_color, $b: $blur_radius)
   $value: $h $v $b $c
   -moz-text-shadow: $value
   -webkit-text-shadow: $value
   -o-text-shadow: $value
   text-shadow: $value
 
-@mixin rotate($r)
+=rotate($r)
   -webkit-transform: rotate($r)
   -moz-transform: rotate($r)
   -o-transform: rotate($r)
@@ -165,7 +165,7 @@ $shadow_color: rgba( 10, 10, 10, .45)
 
 $end: rgba(255,255,255,1)
 $start: rgba(0,0,0,1)
-@mixin gradient-x($e: $end, $s: $start)
+=gradient-x($e: $end, $s: $start)
   background: $e
   background-image: -moz-linear-gradient(left, $s, $e)
   background-image: -webkit-gradient(linear, left center, right center, from($s), to($e))
@@ -175,7 +175,7 @@ $start: rgba(0,0,0,1)
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$s, endColorstr=$e, GradientType=1)
   -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$s, endColorstr=$e, GradientType=1)
   background-image: -ms-linear-gradient(left, $s, $e)
-@mixin gradient-y($e: $end, $s: $start)
+=gradient-y($e: $end, $s: $start)
   background: $e
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$s, endColorstr=$e)
   -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$s, endColorstr=$e)
@@ -187,14 +187,14 @@ $start: rgba(0,0,0,1)
   background-image: linear-gradient(top, $s, $e)
 
 $stripe_color: rgba(0,0,0,1)
-@mixin background-stripes($sc: $stripe_color)
+=background-stripes($sc: $stripe_color)
   background-image: -webkit-repeating-linear-gradient(35deg, transparent, transparent 35px, $sc 35px, $sc 70px)
   background-image: -moz-repeating-linear-gradient(35deg, transparent, transparent 35px, $sc 35px, $sc 70px)
   background-image: -o-repeating-linear-gradient(35deg, transparent, transparent 35px, $sc 35px, $sc 70px)
   background-image: repeating-linear-gradient(35deg, transparent, transparent 35px, $sc 35px, $sc 70px)
 
 $stripe_color: rgba(0,0,0,1)
-@mixin background-stripes($sc: $stripe_color)
+=background-stripes($sc: $stripe_color)
   background-image: -webkit-repeating-linear-gradient(35deg, transparent, transparent 35px, $sc 35px, $sc 70px)
   background-image: -moz-repeating-linear-gradient(35deg, transparent, transparent 35px, $sc 35px, $sc 70px)
   background-image: -o-repeating-linear-gradient(35deg, transparent, transparent 35px, $sc 35px, $sc 70px)
@@ -202,23 +202,23 @@ $stripe_color: rgba(0,0,0,1)
 
 $before: 1.0
 $after: 0.5
-@mixin fade-out($b: $before, $a: $after)
+=fade-out($b: $before, $a: $after)
   opacity: $b
   &:hover
     opacity: $a
 
 $before: 0.50
 $after: 1.0
-@mixin fade-in($b: $before, $a: $after)
+=fade-in($b: $before, $a: $after)
   opacity: $b
   &:hover
     opacity: $a
 
-@mixin serif-font($ff: 'Georgia')
+=serif-font($ff: 'Georgia')
   font-family: $ff, Georgia, Garamond, Palatino, Trajan, Baskerville, "Droid Serif", "Groudy old Style", serif
 
-@mixin sans-serif-font($ff: 'Helvetica')
+=sans-serif-font($ff: 'Helvetica')
   font-family: $ff, Helvetica, Myriad, Optima, Futura, Trebuchet, "Droid Sans", Tahoma, sans-serif
 
-@mixin monospace-font($ff: 'Inconsolata')
+=monospace-font($ff: 'Inconsolata')
   font-family: $ff, Inconsolata, "Anonymous Pro", "Droid Sans Mono", monospace

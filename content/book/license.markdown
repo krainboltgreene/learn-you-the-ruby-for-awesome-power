@@ -1,7 +1,11 @@
-Copyright
-============
+---
+title: "License"
+author: "Kurtis Rainbolt-Greene"
+---
+
+
 This work is split into two parts: Literature and Source Code.
-Each part has a different license attached.
+Each part has a different license attached, as noted below:
 
 
 Literature
@@ -15,6 +19,7 @@ Literature
     [1]: http://krainboltgreene.github.com/resume
     [2]: http://creativecommons.org/licenses/by-sa/3.0/
     [3]: http://learnyoutheruby.org/source.tar.gz
+
 
 Source Code
 -----------

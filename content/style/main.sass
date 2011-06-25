@@ -1,14 +1,65 @@
 @import "extra/mixins", "extra/variables", "extra/reset"
-pre
-  width: 400px
-  @include outline
-  @include center
-  @include round
-  @include in-shadow
-  background: $grey + 45
-  & code.language-ruby
-    @include outline
-    @include center
-    font-size: 14px
-    & .i
-      color: $bright_theme_color
+
+body
+  background: $base_color
+  & header
+    +outline
+    margin-bottom: 150px
+    +center
+    width: 960px
+    & h1
+      +outline(25px)
+    & h5
+      text-align: right
+  & article
+    +outline
+    +center
+    width: 840px
+    & h2
+      +padding-y(25px)
+      +center
+      color: $bright_color
+      text-align: center
+    & p, & li, & blockquote
+      color: $dark_color
+      font-size: 18px
+      & code
+        +outline(3px)
+        +round
+        color: $base_color
+        background: $dark_color url(image/black_denim.png) repeat
+    & blockquote
+      width: 600px
+      +padding
+      +center
+      & hr, & p
+        +margin(0px)
+        +padding-x(10px)
+        color: $major_color
+        background: $dark_color
+  & pre
+    +outline(25px)
+    +padding(0px)
+    +round
+    background: $dark_color url(image/black_denim.png) repeat
+    & code
+      color: $base_color
+      font-size: 14px
+      & .no
+        +padding
+        color: $dark_color
+        background: $base_color
+        white-space: pre-line
+      & .i
+        color: $bright_color
+        font-weight: bold
+      & .r
+        color: $major_color
+        font-weight: bold
+      & .dl
+      & .s
+        color: $green
+  & footer
+    +outline
+    +center
+    width: 960px
