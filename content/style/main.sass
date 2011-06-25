@@ -41,15 +41,24 @@ body
     +outline(25px)
     +padding(0px)
     +round
+    +border(1px, solid, $dark_color)
     background: $dark_color url(image/black_denim.png) repeat
     & code
       color: $base_color
       font-size: 14px
-      & .no
+      & tr td
+        +outline(0px)
+        & pre
+          +outline(0px)
+          +round(0px)
+          +border(0px)
+          padding-left: 5px
+      & .line_numbers pre
+        +margin(0px)
         +padding
         color: $dark_color
         background: $base_color
-        white-space: pre-line
+        text-align: right
       & .i
         color: $bright_color
         font-weight: bold
@@ -57,6 +66,10 @@ body
         color: $major_color
         font-weight: bold
       & .dl
+      & .c
+        color: $dark_color + 15
+      & .ch
+        color: yellow
       & .s
         color: $green
   & footer

@@ -4,7 +4,7 @@
 <title>Values</title>
 <meta charset='utf-8' />
 <meta content='en' name='language' />
-<meta content='2011-06-24 23:38:17 -0700' name='created' />
+<meta content='2011-06-24 23:58:09 -0700' name='created' />
 <meta content='Kurtis Rainbolt-Greene' name='author' />
 <meta content='A Book On How To Program With The Ruby Language' name='description' />
 <meta content='ruby, programming, hacking, learning, tutorial, book, free' name='keywords' />
@@ -242,27 +242,49 @@ Look <a href="/book/chapter/1/">here</a>.</p>
 
 <p><strong>Source Code</strong>: File <code>~/Repository/lytr/task-1.rb</code></p>
 
-<pre><code class="language-ruby"><span class="no">1</span> puts <span class="s"><span class="dl">"</span><span class="k">A Boy And His Lucky Dog</span><span class="dl">"</span></span>
-<span class="no">2</span> puts <span class="s"><span class="dl">"</span><span class="k">=================</span><span class="dl">"</span></span>
-<span class="no">3</span> puts <span class="s"><span class="dl">"</span><span class="k">It was a cold winter morning in the Forgotten Valley.</span><span class="dl">"</span></span>
-<span class="no">4</span> puts <span class="s"><span class="dl">'</span><span class="k">The boy looked to his dog and said, "Look there, Lucky!"</span><span class="dl">'</span></span>
-<span class="no">5</span> puts <span class="s"><span class="dl">'</span><span class="k">"The Temple of Golden Arches!" The dog glumly barked.</span><span class="dl">'</span></span>
-<span class="no">6</span> puts <span class="s"><span class="dl">"</span><span class="k">Venturing forth they climb down from the mountainside.</span><span class="dl">"</span></span>
-<span class="no">7</span> puts <span class="s"><span class="dl">'</span><span class="k">"We are sure to find lost treasure!"</span><span class="dl">'</span></span>
-<span class="no">8</span> puts <span class="s"><span class="dl">'</span><span class="k">The abandoned temple to the Golden Arches awaited.</span><span class="dl">'</span></span>
-</code></pre>
+<pre><code class="language-ruby"><table class="CodeRay"><tr>
+<td class="line_numbers" title="click to toggle" onclick="with (this.firstChild.style) { display = (display == '') ? 'none' : '' }"><pre>1<tt>
+</tt>2<tt>
+</tt>3<tt>
+</tt>4<tt>
+</tt>5<tt>
+</tt>6<tt>
+</tt>7<tt>
+</tt>8<tt>
+</tt></pre></td>
+  <td class="code"><pre ondblclick="with (this.style) { overflow = (overflow == 'auto' || overflow == '') ? 'visible' : 'auto' }">puts <span class="s"><span class="dl">"</span><span class="k">A Boy And His Lucky Dog</span><span class="dl">"</span></span><tt>
+</tt>puts <span class="s"><span class="dl">"</span><span class="k">=================</span><span class="dl">"</span></span><tt>
+</tt>puts <span class="s"><span class="dl">"</span><span class="k">It was a cold winter morning in the Forgotten Valley.</span><span class="dl">"</span></span><tt>
+</tt>puts <span class="s"><span class="dl">'</span><span class="k">The boy looked to his dog and said, "Look there, Lucky!"</span><span class="dl">'</span></span><tt>
+</tt>puts <span class="s"><span class="dl">'</span><span class="k">"The Temple of Golden Arches!" The dog glumly barked.</span><span class="dl">'</span></span><tt>
+</tt>puts <span class="s"><span class="dl">"</span><span class="k">Venturing forth they climb down from the mountainside.</span><span class="dl">"</span></span><tt>
+</tt>puts <span class="s"><span class="dl">'</span><span class="k">"We are sure to find lost treasure!"</span><span class="dl">'</span></span><tt>
+</tt>puts <span class="s"><span class="dl">'</span><span class="k">The abandoned temple to the Golden Arches awaited.</span><span class="dl">'</span></span><tt>
+</tt></pre></td>
+</tr></table></code></pre>
 
 <p><strong>Results</strong>: Run <code>ruby task-1.rb</code></p>
 
-<pre><code class="language-terminal"><span class="no">1</span> A Boy And His Lucky Dog
-<span class="no">2</span> =================
-<span class="no">3</span> It was a cold winter morning in the Forgotten Valley.
-<span class="no">4</span> The boy looked to his dog and said, "Look there, Lucky!"
-<span class="no">5</span> "The Temple of Golden Arches!" The dog glumly barked.
-<span class="no">6</span> Venturing forth they climb down from the mountainside.
-<span class="no">7</span> "We are sure to find lost treasure!"
-<span class="no">8</span> The abandoned temple to the Golden Arches awaited.
-</code></pre>
+<pre><code class="language-terminal"><table class="CodeRay"><tr>
+<td class="line_numbers" title="click to toggle" onclick="with (this.firstChild.style) { display = (display == '') ? 'none' : '' }"><pre>1<tt>
+</tt>2<tt>
+</tt>3<tt>
+</tt>4<tt>
+</tt>5<tt>
+</tt>6<tt>
+</tt>7<tt>
+</tt>8<tt>
+</tt></pre></td>
+  <td class="code"><pre ondblclick="with (this.style) { overflow = (overflow == 'auto' || overflow == '') ? 'visible' : 'auto' }">A Boy And His Lucky Dog<tt>
+</tt>=================<tt>
+</tt>It was a cold winter morning in the Forgotten Valley.<tt>
+</tt>The boy looked to his dog and said, "Look there, Lucky!"<tt>
+</tt>"The Temple of Golden Arches!" The dog glumly barked.<tt>
+</tt>Venturing forth they climb down from the mountainside.<tt>
+</tt>"We are sure to find lost treasure!"<tt>
+</tt>The abandoned temple to the Golden Arches awaited.<tt>
+</tt></pre></td>
+</tr></table></code></pre>
 
 <p><strong>Details</strong></p>
 
@@ -318,45 +340,85 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <p><strong>Source Code</strong>: File <code>~/Repository/lytr/task-2.rb</code></p>
 
-<pre><code class="language-ruby"><span class="no"> 1</span> <span class="c"># This line is a comment. A comment is used to</span>
-<span class="no"> 2</span> <span class="c"># document source code. This makes it easier to</span>
-<span class="no"> 3</span> <span class="c"># read for others, and yourself.</span>
-<span class="no"> 4</span> 
-<span class="no"> 5</span> puts <span class="s"><span class="dl">"</span><span class="k">The Wealthiest Merchant And His Daughter</span><span class="dl">"</span></span>
-<span class="no"> 6</span> puts <span class="s"><span class="dl">"</span><span class="k">========================================</span><span class="dl">"</span></span>
-<span class="no"> 7</span> 
-<span class="no"> 8</span> <span class="c"># Any part of a line after the pound sign is a comment, and not interpreted.</span>
-<span class="no"> 9</span> 
-<span class="no"><strong>10</strong></span> puts <span class="s"><span class="dl">"</span><span class="k">The boy and his lucky dog travelled along the wasteland together.</span><span class="dl">"</span></span> <span class="c"># Like this.</span>
-<span class="no">11</span> puts <span class="s"><span class="dl">"</span><span class="k">They saw many things, but mostly trash and death.</span><span class="dl">"</span></span> <span class="c"># These are comments</span>
-<span class="no">12</span> puts <span class="s"><span class="dl">"</span><span class="k">The adventurous two wandered through abandoned cities and towns.</span><span class="dl">"</span></span>
-<span class="no">13</span> 
-<span class="no">14</span> <span class="c"># puts "Avoiding raiders and wastelanders." # This is line is a comment.</span>
-<span class="no">15</span> 
-<span class="no">16</span> print <span class="s"><span class="dl">"</span><span class="k">One time the two happened on a small village named </span><span class="dl">"</span></span>
-<span class="no">17</span> puts <span class="s"><span class="dl">'</span><span class="k">"Wall Mart Town"</span><span class="dl">'</span></span>
-<span class="no">18</span> 
-<span class="no">19</span> <span class="c">### You can put multiple pound signs, but it doesn't read anything after the</span>
-<span class="no"><strong>20</strong></span> <span class="c">## first pound sign. ##</span>
-<span class="no">21</span>     <span class="c"># You can even indent the comments!</span>
-<span class="no">22</span> 
-<span class="no">23</span> print <span class="s"><span class="dl">"</span><span class="ch">\"</span><span class="k">Hey Lucky,</span><span class="ch">\"</span><span class="k"> the boy says</span><span class="dl">"</span></span>
-<span class="no">24</span> print <span class="s"><span class="dl">"</span><span class="k"> </span><span class="dl">"</span></span>
-<span class="no">25</span> puts <span class="s"><span class="dl">"</span><span class="ch">\"</span><span class="k">Lets check this place out!</span><span class="ch">\"</span><span class="dl">"</span></span>
-<span class="no">26</span> puts <span class="s"><span class="dl">"</span><span class="k">The dog didn't think this was a good idea.</span><span class="dl">"</span></span>
-</code></pre>
+<pre><code class="language-ruby"><table class="CodeRay"><tr>
+<td class="line_numbers" title="click to toggle" onclick="with (this.firstChild.style) { display = (display == '') ? 'none' : '' }"><pre>1<tt>
+</tt>2<tt>
+</tt>3<tt>
+</tt>4<tt>
+</tt>5<tt>
+</tt>6<tt>
+</tt>7<tt>
+</tt>8<tt>
+</tt>9<tt>
+</tt><strong>10</strong><tt>
+</tt>11<tt>
+</tt>12<tt>
+</tt>13<tt>
+</tt>14<tt>
+</tt>15<tt>
+</tt>16<tt>
+</tt>17<tt>
+</tt>18<tt>
+</tt>19<tt>
+</tt><strong>20</strong><tt>
+</tt>21<tt>
+</tt>22<tt>
+</tt>23<tt>
+</tt>24<tt>
+</tt>25<tt>
+</tt>26<tt>
+</tt></pre></td>
+  <td class="code"><pre ondblclick="with (this.style) { overflow = (overflow == 'auto' || overflow == '') ? 'visible' : 'auto' }"><span class="c"># This line is a comment. A comment is used to</span><tt>
+</tt><span class="c"># document source code. This makes it easier to</span><tt>
+</tt><span class="c"># read for others, and yourself.</span><tt>
+</tt><tt>
+</tt>puts <span class="s"><span class="dl">"</span><span class="k">The Wealthiest Merchant And His Daughter</span><span class="dl">"</span></span><tt>
+</tt>puts <span class="s"><span class="dl">"</span><span class="k">========================================</span><span class="dl">"</span></span><tt>
+</tt><tt>
+</tt><span class="c"># Any part of a line after the pound sign is a comment, and not interpreted.</span><tt>
+</tt><tt>
+</tt>puts <span class="s"><span class="dl">"</span><span class="k">The boy and his lucky dog travelled along the wasteland together.</span><span class="dl">"</span></span> <span class="c"># Like this.</span><tt>
+</tt>puts <span class="s"><span class="dl">"</span><span class="k">They saw many things, but mostly trash and death.</span><span class="dl">"</span></span> <span class="c"># These are comments</span><tt>
+</tt>puts <span class="s"><span class="dl">"</span><span class="k">The adventurous two wandered through abandoned cities and towns.</span><span class="dl">"</span></span><tt>
+</tt><tt>
+</tt><span class="c"># puts "Avoiding raiders and wastelanders." # This is line is a comment.</span><tt>
+</tt><tt>
+</tt>print <span class="s"><span class="dl">"</span><span class="k">One time the two happened on a small village named </span><span class="dl">"</span></span><tt>
+</tt>puts <span class="s"><span class="dl">'</span><span class="k">"Wall Mart Town"</span><span class="dl">'</span></span><tt>
+</tt><tt>
+</tt><span class="c">### You can put multiple pound signs, but it doesn't read anything after the</span><tt>
+</tt><span class="c">## first pound sign. ##</span><tt>
+</tt>    <span class="c"># You can even indent the comments!</span><tt>
+</tt><tt>
+</tt>print <span class="s"><span class="dl">"</span><span class="ch">\"</span><span class="k">Hey Lucky,</span><span class="ch">\"</span><span class="k"> the boy says</span><span class="dl">"</span></span><tt>
+</tt>print <span class="s"><span class="dl">"</span><span class="k"> </span><span class="dl">"</span></span><tt>
+</tt>puts <span class="s"><span class="dl">"</span><span class="ch">\"</span><span class="k">Lets check this place out!</span><span class="ch">\"</span><span class="dl">"</span></span><tt>
+</tt>puts <span class="s"><span class="dl">"</span><span class="k">The dog didn't think this was a good idea.</span><span class="dl">"</span></span><tt>
+</tt></pre></td>
+</tr></table></code></pre>
 
 <p><strong>Results</strong>: Run <code>ruby task-2.rb</code></p>
 
-<pre><code class="language-terminal"><span class="no">1</span> The Wealthiest Merchant And His Daughter
-<span class="no">2</span> ========================================
-<span class="no">3</span> The boy and his lucky dog travelled along the wasteland together.
-<span class="no">4</span> They saw many things, but mostly trash and death.
-<span class="no">5</span> The adventurous two wandered through abandoned cities and towns.
-<span class="no">6</span> One time the two happened on a small village named "Wall Mart Town"
-<span class="no">7</span> "Hey Lucky," the boy says "Lets check this place out!"
-<span class="no">8</span> The dog didn't think this was a good idea.
-</code></pre>
+<pre><code class="language-terminal"><table class="CodeRay"><tr>
+<td class="line_numbers" title="click to toggle" onclick="with (this.firstChild.style) { display = (display == '') ? 'none' : '' }"><pre>1<tt>
+</tt>2<tt>
+</tt>3<tt>
+</tt>4<tt>
+</tt>5<tt>
+</tt>6<tt>
+</tt>7<tt>
+</tt>8<tt>
+</tt></pre></td>
+  <td class="code"><pre ondblclick="with (this.style) { overflow = (overflow == 'auto' || overflow == '') ? 'visible' : 'auto' }">The Wealthiest Merchant And His Daughter<tt>
+</tt>========================================<tt>
+</tt>The boy and his lucky dog travelled along the wasteland together.<tt>
+</tt>They saw many things, but mostly trash and death.<tt>
+</tt>The adventurous two wandered through abandoned cities and towns.<tt>
+</tt>One time the two happened on a small village named "Wall Mart Town"<tt>
+</tt>"Hey Lucky," the boy says "Lets check this place out!"<tt>
+</tt>The dog didn't think this was a good idea.<tt>
+</tt></pre></td>
+</tr></table></code></pre>
 
 <p><strong>Details</strong></p>
 
@@ -406,13 +468,22 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <p><strong>Source Code</strong>: File <code>~/Repository/lytr/task-.rb</code></p>
 
-<pre><code class="language-ruby"><span class="no">1</span> <span class="s"><span class="dl">"</span><span class="k">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-<span class="no">2</span> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-<span class="no">3</span> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-<span class="no">4</span> consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-<span class="no">5</span> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-<span class="no">6</span> proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><span class="dl">"</span></span>
-</code></pre>
+<pre><code class="language-ruby"><table class="CodeRay"><tr>
+<td class="line_numbers" title="click to toggle" onclick="with (this.firstChild.style) { display = (display == '') ? 'none' : '' }"><pre>1<tt>
+</tt>2<tt>
+</tt>3<tt>
+</tt>4<tt>
+</tt>5<tt>
+</tt>6<tt>
+</tt></pre></td>
+  <td class="code"><pre ondblclick="with (this.style) { overflow = (overflow == 'auto' || overflow == '') ? 'visible' : 'auto' }"><span class="s"><span class="dl">"</span><span class="k">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<tt>
+</tt>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<tt>
+</tt>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<tt>
+</tt>consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse<tt>
+</tt>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non<tt>
+</tt>proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span><span class="dl">"</span></span><tt>
+</tt></pre></td>
+</tr></table></code></pre>
 
 <p><strong>Results</strong>: Run <code>ruby task-.rb</code></p>
 
