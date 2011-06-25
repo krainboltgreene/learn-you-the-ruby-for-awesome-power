@@ -11,3 +11,8 @@ gem 'heroku', '2.3.3'
 
 gem 'rspec', '2.6.0'
 gem 'capybara', '1.0.0'
+
+gem 'rack', '1.3.0'
+gem 'rack-contrib', '1.1.0'
+gem 'rack-rewrite', '1.0.2'
+gem 'mime-types', '1.16'
