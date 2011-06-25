@@ -6,11 +6,11 @@ called Learn You The Ruby For
 Awesome Power. Learn You The
 Ruby For Awesome Power is a
 book for those who want to
-hack with the Ruby Programming
-Language. The book attempts to
-be similar to Learn You A
+program with the Ruby Language.
+The book attempts to
+look like the Learn You A
 Haskell, Learn You Some Erlang,
-and Learn Python The Hard Way.
+and Learn Python The Hard Way books.
 This book also attempts to be
 funny, but never really had
 the nack for telling jokes.
@@ -24,8 +24,24 @@ complete tasks that over time
 take what the reader has learned
 and adds new layers. This book
 also gives the reader pep talks,
-and advice concerning girls. The
+and advice concerning girls (or boys). The
 conversations get awkward and the
 book will, at times, start ranting
 about some woman called "Vickey"
 and how it all really went down.
+
+
+Contributing
+------------
+
+1. Spacing:
+  * One space above and below: Paragraphs, Code, Quotes, Lists, Images, & Headers
+  * Two spaces above Headers
+  * Zero spaces above Chapter Headers
+
+2. Paragraph sentences should be followed by a return.
+
+3. Use this style for code blocks:
+  ~~~ language-ruby
+  print "ten"
+  ~~~

@@ -1,7 +1,11 @@
-Copyright
-============
+---
+title: "License"
+author: "Kurtis Rainbolt-Greene"
+---
+
+
 This work is split into two parts: Literature and Source Code.
-Each part has a different license attached.
+Each part has a different license attached, as noted below:
 
 
 Literature
