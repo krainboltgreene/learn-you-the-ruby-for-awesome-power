@@ -4,7 +4,6 @@ require 'rack-rewrite'
 require 'mime/types'
 
 use Rack::ETag
-
 module ::Rack
     class TryStatic < Static
 
@@ -39,4 +38,4 @@ run lambda { [404, {
                 "Last-Modified"  => File.mtime(errorFile).httpdate,
                 "Content-Type"   => "text/html",
                 "Content-Length" => File.size(errorFile).to_s
-            }, File.read(errorFile)] }┌
+            }, File.read(errorFile)] }
