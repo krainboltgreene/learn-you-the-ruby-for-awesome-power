@@ -17,6 +17,8 @@
   %body
     %header
       %h1= @item[:title]
+      %hr
+      %h5 By #{@item[:author]}
 
     %article
       = yield

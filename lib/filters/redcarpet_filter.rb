@@ -5,6 +5,6 @@ class RedcarpetFilter < Nanoc3::Filter
   type :text
 
   def run(content, params={})
-    Redcarpet.new(content, :smart, :filter_html, :generate_toc, :fenced_code).to_html
+    Redcarpet.new(content, :filter_html, :fenced_code).to_html
   end
 end
