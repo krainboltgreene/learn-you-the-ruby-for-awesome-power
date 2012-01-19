@@ -138,7 +138,7 @@ Ruby was officially given it's name on 1993-02-24, in Japan by it's creator [Yuk
 The language went public 1995-12-21 with Ruby version 0.95.
 Ruby version 1.0 wouldn't crawl out until a year later, 1996-12-25.
 Somewhere during the year 2000 Ruby would finally become used mainstream outside of Japan.
-2001-12-15 the Pragmatic Programmers released Programming Ruby, otherwise known as * ThePickaxe Guide*.
+2001-12-15 the Pragmatic Programmers released Programming Ruby, otherwise known as *The Pickaxe Guide*.
 2001 also happened to be the year of the ever successful convention *RubyConf*, which was first called RubyConf?.new(2001).
 It's an inside joke you'll get later.
 
