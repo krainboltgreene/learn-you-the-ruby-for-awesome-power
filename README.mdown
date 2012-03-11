@@ -29,19 +29,3 @@ conversations get awkward and the
 book will, at times, start ranting
 about some woman called "Vickey"
 and how it all really went down.
-
-
-Contributing
-------------
-
-1. Spacing:
-  * One space above and below: Paragraphs, Code, Quotes, Lists, Images, & Headers
-  * Two spaces above Headers
-  * Zero spaces above Chapter Headers
-
-2. Paragraph sentences should be followed by a return.
-
-3. Use this style for code blocks:
-  ~~~ language-ruby
-  print "ten"
-  ~~~
