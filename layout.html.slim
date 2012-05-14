@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title = layout_title
+    meta content=layout_keywords
+    link href="http://fonts.googleapis.com/css?family=Asap:400,700|Fjord+One" rel="stylesheet"
+    link href="/styles/bootstrap.min.css" rel="stylesheet"
+    link href="/styles/bootstrap-responsive.min.css" rel="stylesheet"
+    link href="/styles/core.css" rel="stylesheet"
+    script src="/scripts/jquery.min.js"
+    script src="/scripts/bootstrap.min.js"
+  body
+    header
+      .container
+        == render '_header.html.slim'
+    article.container
+      == yield
+    footer
+      .container
+        == render '_footer.html.slim'
+    == render '_analytics.html.slim'

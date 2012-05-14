@@ -1,5 +1,9 @@
 body {
-  & article { & li, & p { max-width: 640px; } }
-  & p, & li { font-family: "Fjord One", serif; }
-  & ul, & ol { padding-left: 1.5em; }
+  background: #E8E8E8;
+  article {
+    li, p { max-width: 640px; }
+    h1, h2, h3 { color: #990100; }
+  }
+  p, li { font-family: "Fjord One", serif; }
+  ul, ol { padding-left: 1.25em; }
 }

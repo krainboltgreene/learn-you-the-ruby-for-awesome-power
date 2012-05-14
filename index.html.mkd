@@ -1,0 +1,25 @@
+Learn You The Ruby For Awesome Power <small>By Kurtis Rainbolt-Greene</small>
+====================================
+
+Welcome to L.Y.T.R.F.A.P., a book that will help you learn the programming language Ruby.
+If you walk through each excersize you'll know more about Ruby than you ever did.
+It's really simple actually, and quite fun!
+
+
+Table Of Contents
+-----------------
+
+1. Ruby [&rarr;](/chapter/1)
+  1. How This Book Works [&rarr;](/chapter/1/task/1/)
+  2. Example Task [&rarr;](/chapter/1/task/2/)
+2. Easy [&rarr;](/chapter/2)
+  1. Install Ruby and The REPL [&rarr;](/chapter/2/task/1/)
+  2. Numbers and Text [&rarr;](/chapter/2/task/2/)
+  3. Comments and Special Characters [&rarr;](/chapter/2/task/3/)
+  4. Assignments (AKA Variables) [&rarr;](/chapter/2/task/4/)
+  5. Input and Output [&rarr;](/chapter/2/task/5/)
+  6. Interpolation [&rarr;](/chapter/2/task/6/)
+  7. Functions (AKA Methods) [&rarr;](/chapter/2/task/7/)
+  8. Array [&rarr;](/chapter/2/task/8/)
+  9. Hashes [&rarr;](/chapter/2/task/9/)
+  10. Classes & Objects [&rarr;](/chapter/2/task/10/)

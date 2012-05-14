@@ -29,3 +29,10 @@ conversations get awkward and the
 book will, at times, start ranting
 about some woman called "Vickey"
 and how it all really went down.
+
+SETUP
+-----
+
+1. `bundle install`
+2. `ln -s `pwd` ~/.pow/learn-you-the-ruby && open http://learn-you-the-ruby.dev && stasis -d`
+3. Huzza!

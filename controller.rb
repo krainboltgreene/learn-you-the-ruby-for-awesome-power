@@ -18,4 +18,12 @@ helpers do
   def link_to(text, url)
     "<a href='#{url}'>#{text}</a>"
   end
+
+  def layout_title
+    "Learn You The Ruby For Awesome Power"
+  end
+
+  def layout_keywords
+    %w[].join(', ')
+  end
 end
